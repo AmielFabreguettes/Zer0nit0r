@@ -6,4 +6,15 @@
     android:layout_height="match_parent"
     tools:context=".LandingPageActivity">
 
+    <Button
+        android:visibility="invisible"
+        android:id="@+id/admin_button"
+        android:layout_width="194dp"
+        android:layout_height="139dp"
+        android:textSize="24sp"
+        android:text="Admin"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
