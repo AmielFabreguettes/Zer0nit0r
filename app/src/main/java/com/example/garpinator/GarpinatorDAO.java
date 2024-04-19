@@ -6,6 +6,7 @@ import androidx.room.Query;
 
 import java.util.List;
 
+@Dao
 public interface GarpinatorDAO {
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)
@@ -19,4 +20,7 @@ public interface GarpinatorDAO {
 
     @Query("Select * from " + GarpinatorDatabase.userTable + " Where id = :id")
     User getUserByID(int id);
+
+    @Query("Delete from " + GarpinatorDatabase.userTable)
+    void clearUserTable();
 }
