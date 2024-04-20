@@ -3,6 +3,7 @@ package com.example.garpinator;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Context;
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
@@ -22,6 +23,15 @@ public class LandingPageActivity extends AppCompatActivity {
             Button admin_button = findViewById(R.id.admin_button);
             admin_button.setVisibility(View.VISIBLE);
         }
+
+        Button admin_button = findViewById(R.id.admin_button);
+        admin_button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(LandingPageActivity.this,AdminActivity.class);
+                startActivity(intent);
+            }
+        });
 
     }
 }
