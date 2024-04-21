@@ -33,5 +33,16 @@ public class LandingPageActivity extends AppCompatActivity {
             }
         });
 
+        Button logout_button = findViewById(R.id.logout_button);
+
+        logout_button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(LandingPageActivity.this,MainActivity.class);
+                startActivity(intent);
+            }
+        });
+
+
     }
 }

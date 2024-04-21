@@ -25,7 +25,5 @@ public class AdminActivity extends AppCompatActivity {
             list.append(u.getUsername()).append("\n");
         }
 
-        TextView user_list = findViewById(R.id.listUser);
-        user_list.setText(list.toString());
     }
 }
