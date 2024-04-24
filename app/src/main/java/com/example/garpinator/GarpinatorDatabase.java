@@ -42,6 +42,12 @@ public abstract class GarpinatorDatabase extends RoomDatabase {
         public void onCreate(@NonNull SupportSQLiteDatabase db){
             super.onCreate(db);
             //TODO: add databaseWriteExecutor.execute(() -> {...}
+
+            User admin = new User("admin2","admin2",true);
+            INSTANCE.garpinatorDAO().insert(admin);
+
+            User testuser = new User("testuser1","testuser1",false);
+            INSTANCE.garpinatorDAO().insert(testuser);
         }
     };
 

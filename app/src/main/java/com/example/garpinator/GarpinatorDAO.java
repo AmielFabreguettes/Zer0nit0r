@@ -23,4 +23,10 @@ public interface GarpinatorDAO {
 
     @Query("Delete from " + GarpinatorDatabase.userTable)
     void clearUserTable();
+
+    @Query("Update " + GarpinatorDatabase.userTable + " Set isAdmin = :isAdmin Where username = :username")
+    void changeAdmin(String username, boolean isAdmin);
+
+    @Query("Delete from " + GarpinatorDatabase.userTable + " Where username = :username")
+    void deleteUser(String username);
 }

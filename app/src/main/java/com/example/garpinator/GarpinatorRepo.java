@@ -46,6 +46,16 @@ public class GarpinatorRepo {
                 garpinatorDAO.clearUserTable());
     }
 
+    public void changeAdmin(String username, boolean isAdmin){
+        GarpinatorDatabase.databaseWriteExecutor.execute(() ->
+                garpinatorDAO.changeAdmin(username,isAdmin));
+    }
+
+    public void deleteUser(String username){
+        GarpinatorDatabase.databaseWriteExecutor.execute(() ->
+                garpinatorDAO.deleteUser(username));
+    }
+
     public User getUserByName(String name){
         Future<User> user = GarpinatorDatabase.databaseWriteExecutor.submit(
                 new Callable<User>(){
