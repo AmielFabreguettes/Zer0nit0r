@@ -2,7 +2,7 @@ package com.example.garpinator;
 import androidx.room.Entity;
 import androidx.room.PrimaryKey;
 
-@Entity(tableName="userTable")
+@Entity(tableName = GarpinatorDatabase.USER_TABLE)
 public class User {
 
     @PrimaryKey(autoGenerate=true)

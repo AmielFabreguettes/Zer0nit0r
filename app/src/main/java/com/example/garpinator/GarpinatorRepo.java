@@ -2,19 +2,18 @@ package com.example.garpinator;
 
 import android.app.Application;
 
-import androidx.room.Insert;
-
-import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.Callable;
 import java.util.concurrent.Future;
 
 public class GarpinatorRepo {
-    private GarpinatorDAO garpinatorDAO;
+    private UserDAO userDAO;
+    private PirateDAO pirateDAO;
 
     public GarpinatorRepo(Application app){
         GarpinatorDatabase db = GarpinatorDatabase.getDatabase(app);
-        this.garpinatorDAO = db.garpinatorDAO();
+        this.userDAO = db.UserDAO();
+        this.pirateDAO = db.PirateDAO();
     }
 
     public List<User> getAllUsers() {
@@ -22,7 +21,7 @@ public class GarpinatorRepo {
                 new Callable<List<User>>() {
                     @Override
                     public List<User> call() throws Exception {
-                        return garpinatorDAO.getAllUsers();
+                        return userDAO.getAllUsers();
                     }
                 }
         );
@@ -35,25 +34,45 @@ public class GarpinatorRepo {
         return null;
     }
 
+    public List<Pirate> getAllPirates() {
+        Future<List<Pirate>> future = GarpinatorDatabase.databaseWriteExecutor.submit(
+                new Callable<List<Pirate>>() {
+                    @Override
+                    public List<Pirate> call() throws Exception {
+                        return pirateDAO.getAllPirates();
+                    }
+                }
+        );
+
+        try{
+            return future.get();
+        }catch(Exception e){
+            e.printStackTrace();
+        }
+        return null;
+    }
+
+
+
     public void insertUser(User user){
         GarpinatorDatabase.databaseWriteExecutor.execute(() ->{
-            garpinatorDAO.insert(user);
+            userDAO.insertUser(user);
         });
     }
 
     public void clearUserTable(){
         GarpinatorDatabase.databaseWriteExecutor.execute(() ->
-                garpinatorDAO.clearUserTable());
+                userDAO.clearUserTable());
     }
 
     public void changeAdmin(String username, boolean isAdmin){
         GarpinatorDatabase.databaseWriteExecutor.execute(() ->
-                garpinatorDAO.changeAdmin(username,isAdmin));
+                userDAO.changeAdmin(username,isAdmin));
     }
 
     public void deleteUser(String username){
         GarpinatorDatabase.databaseWriteExecutor.execute(() ->
-                garpinatorDAO.deleteUser(username));
+                userDAO.deleteUser(username));
     }
 
     public User getUserByName(String name){
@@ -61,7 +80,7 @@ public class GarpinatorRepo {
                 new Callable<User>(){
                     @Override
                     public User call() throws Exception{
-                        return garpinatorDAO.getUserByName(name);
+                        return userDAO.getUserByName(name);
                     }
                 }
         );

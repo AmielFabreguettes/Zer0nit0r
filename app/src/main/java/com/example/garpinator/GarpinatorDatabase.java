@@ -1,6 +1,6 @@
 package com.example.garpinator;
+
 import android.content.Context;
-import android.util.Log;
 
 import androidx.annotation.NonNull;
 import androidx.room.Database;
@@ -8,13 +8,17 @@ import androidx.room.Room;
 import androidx.room.RoomDatabase;
 import androidx.sqlite.db.SupportSQLiteDatabase;
 
+import java.util.List;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
-@Database(entities = {User.class},version = 1,exportSchema = false)
+@Database(entities = {User.class,Pirate.class},version = 7,exportSchema = false)
 public abstract class GarpinatorDatabase extends RoomDatabase {
 
-    public static final String userTable = "userTable";
+
+    public static final String DB_NAME = "GarpinatorDB";
+    public static final String USER_TABLE = "userTable";
+    public static final String PIRATE_TABLE = "pirateTable";
 
     private static volatile GarpinatorDatabase INSTANCE;
     private static final int NUMBER_OF_THREADS = 4;
@@ -22,12 +26,15 @@ public abstract class GarpinatorDatabase extends RoomDatabase {
     static final ExecutorService databaseWriteExecutor =
             Executors.newFixedThreadPool(NUMBER_OF_THREADS);
 
-    static GarpinatorDatabase getDatabase(final Context context){
+
+
+
+    public static GarpinatorDatabase getDatabase(final Context context){
         if(INSTANCE == null){
             synchronized (GarpinatorDatabase.class){
                 if(INSTANCE == null) {
                     INSTANCE = Room.databaseBuilder(context.getApplicationContext(),
-                                    GarpinatorDatabase.class, "Garpinator_db")
+                                    GarpinatorDatabase.class, DB_NAME)
                             .fallbackToDestructiveMigration()
                             .addCallback(addDefaultValues)
                             .build();
@@ -41,15 +48,28 @@ public abstract class GarpinatorDatabase extends RoomDatabase {
         @Override
         public void onCreate(@NonNull SupportSQLiteDatabase db){
             super.onCreate(db);
-            //TODO: add databaseWriteExecutor.execute(() -> {...}
+            databaseWriteExecutor.execute(() -> {
+                User admin = new User("admin2","admin2",true);
+                INSTANCE.UserDAO().insertUser(admin);
 
-            User admin = new User("admin2","admin2",true);
-            INSTANCE.garpinatorDAO().insert(admin);
+                User testuser = new User("testuser1","testuser1",false);
+                INSTANCE.UserDAO().insertUser(testuser);
 
-            User testuser = new User("testuser1","testuser1",false);
-            INSTANCE.garpinatorDAO().insert(testuser);
+                List<Pirate> pirates = retrieveAllPirates();
+                if(pirates != null) {
+                    for (Pirate p : pirates) {
+                        INSTANCE.PirateDAO().insertPirate(p);
+                    }
+                }
+            });
         }
     };
 
-    public abstract GarpinatorDAO garpinatorDAO();
+    public static List<Pirate> retrieveAllPirates(){
+        //TODO
+        return null;
+    }
+
+    public abstract UserDAO UserDAO();
+    public abstract PirateDAO PirateDAO();
 }

@@ -33,6 +33,16 @@ public class LandingPageActivity extends AppCompatActivity {
             admin_button.setVisibility(View.VISIBLE);
         }
 
+        Button pirate_list_button = findViewById(R.id.pirate_list_button);
+
+        pirate_list_button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(LandingPageActivity.this,PiratesListActivity.class);
+                startActivity(intent);
+            }
+        });
+
         Button admin_button = findViewById(R.id.admin_button);
         admin_button.setOnClickListener(new View.OnClickListener() {
             @Override
