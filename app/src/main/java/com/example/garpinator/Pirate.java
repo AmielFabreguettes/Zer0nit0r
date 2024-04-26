@@ -10,8 +10,11 @@ public class Pirate {
     private int id;
     private String name;
 
+    private int odds;
+
     public Pirate(String name) {
         this.name = name;
+        this.odds = 2;
     }
 
     public int getId() {
@@ -28,5 +31,13 @@ public class Pirate {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public int getOdds() {
+        return odds;
+    }
+
+    public void setOdds(int odds) {
+        this.odds = odds;
     }
 }

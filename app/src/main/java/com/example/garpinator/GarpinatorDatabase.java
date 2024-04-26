@@ -1,5 +1,6 @@
 package com.example.garpinator;
 
+import android.app.Application;
 import android.content.Context;
 
 import androidx.annotation.NonNull;
@@ -8,17 +9,21 @@ import androidx.room.Room;
 import androidx.room.RoomDatabase;
 import androidx.sqlite.db.SupportSQLiteDatabase;
 
+import java.io.InputStream;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
-@Database(entities = {User.class,Pirate.class},version = 7,exportSchema = false)
+@Database(entities = {User.class,Pirate.class},version = 9,exportSchema = false)
 public abstract class GarpinatorDatabase extends RoomDatabase {
 
 
     public static final String DB_NAME = "GarpinatorDB";
     public static final String USER_TABLE = "userTable";
     public static final String PIRATE_TABLE = "pirateTable";
+
+    private static final String PIRATES_XML_FILE = "pirates.xml";
 
     private static volatile GarpinatorDatabase INSTANCE;
     private static final int NUMBER_OF_THREADS = 4;
@@ -66,8 +71,14 @@ public abstract class GarpinatorDatabase extends RoomDatabase {
     };
 
     public static List<Pirate> retrieveAllPirates(){
-        //TODO
-        return null;
+        Context ct = ContextProvider.getContext();
+        List<String> names = RecordsXMLParser.parseRecords(ct,R.xml.pirates);
+        List<Pirate> result = new ArrayList<>();
+        for(String n: names){
+            Pirate p = new Pirate(n);
+            result.add(p);
+        }
+        return result;
     }
 
     public abstract UserDAO UserDAO();

@@ -18,7 +18,7 @@ public class PiratesListActivity extends AppCompatActivity {
 
         this.db = new GarpinatorRepo(getApplication());
 
-        List<Pirate> pirates = GarpinatorDatabase.retrieveAllPirates();
+        List<Pirate> pirates = db.getAllPirates();
 
         StringBuilder temp = new StringBuilder();
         for(Pirate p: pirates){
