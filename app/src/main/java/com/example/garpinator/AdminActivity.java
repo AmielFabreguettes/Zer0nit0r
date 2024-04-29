@@ -33,12 +33,5 @@ public class AdminActivity extends AppCompatActivity {
         this.user_admin_level = new UserAdminLevel(users,db,prefs);
 
         rv.setAdapter(user_admin_level);
-
-
-
-
-
-
-
     }
 }

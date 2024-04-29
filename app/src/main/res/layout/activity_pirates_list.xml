@@ -6,14 +6,16 @@
     android:layout_height="match_parent"
     tools:context=".PiratesListActivity">
 
-    <TextView
-        android:id="@+id/pList"
-        android:layout_width="332dp"
-        android:layout_height="622dp"
-        android:textSize="12sp"
-        tools:text="Hello"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="375dp"
+        android:layout_height="600dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
 </androidx.constraintlayout.widget.ConstraintLayout>
