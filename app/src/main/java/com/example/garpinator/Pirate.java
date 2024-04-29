@@ -12,11 +12,11 @@ public class Pirate {
     private int id;
     private String name;
     private String crew;
-    private int bounty;
+    private String bounty;
     private boolean nickname;
     private boolean status;
     private int age;
-    private Date birthday;
+    private String birthday;
     private int height;
     private boolean devil_fruit;
     private boolean yonko_crew;
@@ -26,14 +26,35 @@ public class Pirate {
     private String race;
     private boolean captain;
     private boolean vsLuffy;
-    private boolean vsZorp;
+    private boolean vsZoro;
     private boolean vsSanji;
     private boolean haki;
 
     private int odds;
 
-    public Pirate(String name) {
+    public Pirate(String name, String crew, String bounty, boolean nickname, boolean status, int age,
+                  String birthday, int height, boolean devil_fruit, boolean yonko_crew, boolean yonko,
+                  boolean scar, String weapon, String race, boolean captain, boolean vsLuffy, boolean vsZoro,
+                  boolean vsSanji, boolean haki) {
         this.name = name;
+        this.crew = crew;
+        this.bounty = bounty;
+        this.nickname = nickname;
+        this.status = status;
+        this.age = age;
+        this.birthday = birthday;
+        this.height = height;
+        this.devil_fruit = devil_fruit;
+        this.yonko_crew = yonko_crew;
+        this.yonko = yonko;
+        this.scar = scar;
+        this.weapon = weapon;
+        this.race = race;
+        this.captain = captain;
+        this.vsLuffy = vsLuffy;
+        this.vsZoro = vsZoro;
+        this.vsSanji = vsSanji;
+        this.haki = haki;
         this.odds = 2;
     }
 
@@ -69,11 +90,11 @@ public class Pirate {
         this.crew = crew;
     }
 
-    public int getBounty() {
+    public String getBounty() {
         return bounty;
     }
 
-    public void setBounty(int bounty) {
+    public void setBounty(String bounty) {
         this.bounty = bounty;
     }
 
@@ -101,11 +122,11 @@ public class Pirate {
         this.age = age;
     }
 
-    public Date getBirthday() {
+    public String getBirthday() {
         return birthday;
     }
 
-    public void setBirthday(Date birthday) {
+    public void setBirthday(String birthday) {
         this.birthday = birthday;
     }
 
@@ -181,12 +202,12 @@ public class Pirate {
         this.vsLuffy = vsLuffy;
     }
 
-    public boolean isVsZorp() {
-        return vsZorp;
+    public boolean isVsZoro() {
+        return vsZoro;
     }
 
-    public void setVsZorp(boolean vsZorp) {
-        this.vsZorp = vsZorp;
+    public void setVsZoro(boolean vsZoro) {
+        this.vsZoro = vsZoro;
     }
 
     public boolean isVsSanji() {

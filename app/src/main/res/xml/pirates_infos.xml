@@ -4,22 +4,22 @@
         <crew>Straw Hat Pirates</crew>
         <gender>1</gender>
         <bounty>3,000,000,000</bounty>
-        <nickname>1</nickname>
+        <nickname>1</nickname> //5
         <status>1</status>
         <age>19</age>
         <birthday>05/05</birthday>
         <heigth>174</heigth>
-        <devil_fruit>1</devil_fruit>
+        <devil_fruit>1</devil_fruit> //10
         <yonko_crew>1</yonko_crew>
         <yonko>1</yonko>
         <scar>1</scar>
         <wapon>devil fruit, fist</wapon>
-        <race>human</race>
+        <race>human</race> //15
         <captain>1</captain>
         <Vsluffy>0</Vsluffy>
         <Vszoro>0</Vszoro>
         <Vssanji>0</Vssanji>
-        <haki>1</haki>
+        <haki>1</haki> //20
     </record>
     <record>
         <name>Roronoa Zoro</name>

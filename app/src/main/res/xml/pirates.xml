@@ -4,597 +4,2023 @@
         <crew>Straw Hat Pirates</crew>
         <gender>1</gender>
         <bounty>3,000,000,000</bounty>
+        <nickname>1</nickname>
+        <status>1</status>
+        <age>19</age>
+        <birthday>05/05</birthday>
+        <heigth>174</heigth>
+        <devil_fruit>1</devil_fruit>
+        <yonko_crew>1</yonko_crew>
+        <yonko>1</yonko>
+        <scar>1</scar>
+        <wapon>devil fruit, fist</wapon>
+        <race>human</race>
+        <captain>1</captain>
+        <Vsluffy>0</Vsluffy>
+        <Vszoro>0</Vszoro>
+        <Vssanji>0</Vssanji>
+        <haki>1</haki>
     </record>
     <record>
         <name>Roronoa Zoro</name>
         <crew>Straw Hat Pirates</crew>
         <gender>1</gender>
         <bounty>1,111,000,000</bounty>
+        <nickname>1</nickname>
+        <status>1</status>
+        <age>21</age>
+        <birthday>11/11</birthday>
+        <heigth>181</heigth>
+        <devil_fruit>0</devil_fruit>
+        <yonko_crew>1</yonko_crew>
+        <yonko>0</yonko>
+        <scar>1</scar>
+        <wapon>sword</wapon>
+        <race>human</race>
+        <captain>0</captain>
+        <Vsluffy>0</Vsluffy>
+        <Vszoro>0</Vszoro>
+        <Vssanji>0</Vssanji>
+        <haki>1</haki>
     </record>
     <record>
         <name>Nami</name>
         <crew>Straw Hat Pirates</crew>
         <gender>0</gender>
         <bounty>366,000,000</bounty>
+        <nickname>1</nickname>
+        <status>1</status>
+        <age>20</age>
+        <birthday>07/03</birthday>
+        <heigth>170</heigth>
+        <devil_fruit>0</devil_fruit>
+        <yonko_crew>1</yonko_crew>
+        <yonko>0</yonko>
+        <scar>1</scar>
+        <wapon>weather</wapon>
+        <race>human</race>
+        <captain>0</captain>
+        <Vsluffy>0</Vsluffy>
+        <Vszoro>0</Vszoro>
+        <Vssanji>0</Vssanji>
+        <haki>0</haki>
     </record>
     <record>
         <name>Usopp</name>
         <crew>Straw Hat Pirates</crew>
         <gender>1</gender>
         <bounty>500,000,000</bounty>
+        <nickname>1</nickname>
+        <status>1</status>
+        <age>19</age>
+        <birthday>04/01</birthday>
+        <heigth>176</heigth>
+        <devil_fruit>0</devil_fruit>
+        <yonko_crew>1</yonko_crew>
+        <yonko>0</yonko>
+        <scar>0</scar>
+        <wapon>sniper</wapon>
+        <race>human</race>
+        <captain>0</captain>
+        <Vsluffy>1</Vsluffy>
+        <Vszoro>0</Vszoro>
+        <Vssanji>0</Vssanji>
+        <haki>1</haki>
     </record>
     <record>
         <name>Sanji</name>
         <crew>Straw Hat Pirates</crew>
         <gender>1</gender>
         <bounty>1,032,000,000</bounty>
+        <nickname>1</nickname>
+        <status>1</status>
+        <age>19</age>
+        <birthday>03/02</birthday>
+        <heigth>180</heigth>
+        <devil_fruit>0</devil_fruit>
+        <yonko_crew>1</yonko_crew>
+        <yonko>0</yonko>
+        <scar>0</scar>
+        <wapon>legs</wapon>
+        <race>human</race>
+        <captain>0</captain>
+        <Vsluffy>0</Vsluffy>
+        <Vszoro>0</Vszoro>
+        <Vssanji>0</Vssanji>
+        <haki>1</haki>
     </record>
     <record>
         <name>Tony Tony Chopper</name>
         <crew>Straw Hat Pirates</crew>
         <gender>1</gender>
         <bounty>1,000</bounty>
+        <nickname>1</nickname>
+        <status>1</status>
+        <age>19</age>
+        <birthday>05/05</birthday>
+        <heigth>174</heigth>
+        <devil_fruit>1</devil_fruit>
+        <yonko_crew>1</yonko_crew>
+        <yonko>0</yonko>
+        <scar>0</scar>
+        <wapon>devil fruit</wapon>
+        <race>dear</race>
+        <captain>0</captain>
+        <Vsluffy>0</Vsluffy>
+        <Vszoro>0</Vszoro>
+        <Vssanji>0</Vssanji>
+        <haki>0</haki>
     </record>
     <record>
         <name>Nico Robin</name>
         <crew>Straw Hat Pirates</crew>
         <gender>0</gender>
         <bounty>930,000,000</bounty>
+        <nickname>1</nickname>
+        <status>1</status>
+        <age>30</age>
+        <birthday>02/06</birthday>
+        <heigth>188</heigth>
+        <devil_fruit>1</devil_fruit>
+        <yonko_crew>1</yonko_crew>
+        <yonko>0</yonko>
+        <scar>0</scar>
+        <wapon>devil fruit</wapon>
+        <race>human</race>
+        <captain>0</captain>
+        <Vsluffy>0</Vsluffy>
+        <Vszoro>0</Vszoro>
+        <Vssanji>0</Vssanji>
+        <haki>0</haki>
     </record>
     <record>
         <name>Franky</name>
         <crew>Straw Hat Pirates</crew>
         <gender>1</gender>
         <bounty>394,000,000</bounty>
+        <nickname>1</nickname>
+        <status>1</status>
+        <age>36</age>
+        <birthday>03/09</birthday>
+        <heigth>240</heigth>
+        <devil_fruit>0</devil_fruit>
+        <yonko_crew>1</yonko_crew>
+        <yonko>0</yonko>
+        <scar>0</scar>
+        <wapon>body</wapon>
+        <race>human, robot</race>
+        <captain>0</captain>
+        <Vsluffy>1</Vsluffy>
+        <Vszoro>0</Vszoro>
+        <Vssanji>0</Vssanji>
+        <haki>0</haki>
     </record>
     <record>
         <name>Brook</name>
         <crew>Straw Hat Pirates</crew>
         <gender>1</gender>
         <bounty>383,000,000</bounty>
+        <nickname>1</nickname>
+        <status>1</status>
+        <age>90</age>
+        <birthday>04/03</birthday>
+        <heigth>277</heigth>
+        <devil_fruit>1</devil_fruit>
+        <yonko_crew>1</yonko_crew>
+        <yonko>0</yonko>
+        <scar>0</scar>
+        <wapon>sword</wapon>
+        <race>human, undead</race>
+        <captain>0</captain>
+        <Vsluffy>0</Vsluffy>
+        <Vszoro>0</Vszoro>
+        <Vssanji>0</Vssanji>
+        <haki>0</haki>
     </record>
     <record>
         <name>Jinbe</name>
         <crew>Straw Hat Pirates</crew>
         <gender>1</gender>
         <bounty>1,100,000,000</bounty>
+        <nickname>1</nickname>
+        <status>1</status>
+        <age>46</age>
+        <birthday>04/02</birthday>
+        <heigth>301</heigth>
+        <devil_fruit>0</devil_fruit>
+        <yonko_crew>1</yonko_crew>
+        <yonko>0</yonko>
+        <scar>0</scar>
+        <wapon>fist</wapon>
+        <race>fishman</race>
+        <captain>0</captain>
+        <Vsluffy>0</Vsluffy>
+        <Vszoro>0</Vszoro>
+        <Vssanji>0</Vssanji>
+        <haki>1</haki>
     </record>
     <record>
         <name>Gol D. Roger</name>
         <crew>Roger Pirates</crew>
         <gender>1</gender>
         <bounty>5,564,800,000</bounty>
+        <nickname>1</nickname>
+        <status>0</status>
+        <age>53</age>
+        <birthday>12/31</birthday>
+        <heigth>274</heigth>
+        <devil_fruit>0</devil_fruit>
+        <yonko_crew>0</yonko_crew>
+        <yonko>0</yonko>
+        <scar>0</scar>
+        <wapon>sword</wapon>
+        <race>human</race>
+        <captain>1</captain>
+        <Vsluffy>0</Vsluffy>
+        <Vszoro>0</Vszoro>
+        <Vssanji>0</Vssanji>
+        <haki>1</haki>
     </record>
     <record>
         <name>Silvers Rayleigh</name>
         <crew>Roger Pirates</crew>
         <gender>1</gender>
         <bounty>-1</bounty>
+        <nickname>1</nickname>
+        <status>1</status>
+        <age>78</age>
+        <birthday>05/13</birthday>
+        <heigth>188</heigth>
+        <devil_fruit>0</devil_fruit>
+        <yonko_crew>10</yonko_crew>
+        <yonko>0</yonko>
+        <scar>1</scar>
+        <wapon>sword</wapon>
+        <race>human</race>
+        <captain>0</captain>
+        <Vsluffy>0</Vsluffy>
+        <Vszoro>0</Vszoro>
+        <Vssanji>0</Vssanji>
+        <haki>1</haki>
     </record>
     <record>
         <name>Shanks</name>
         <crew>Red-Haired Pirates</crew>
         <gender>1</gender>
         <bounty>4,048,900,000</bounty>
+        <nickname>1</nickname>
+        <status>1</status>
+        <age>39</age>
+        <birthday>05/05</birthday>
+        <heigth>199</heigth>
+        <devil_fruit>0</devil_fruit>
+        <yonko_crew>1</yonko_crew>
+        <yonko>1</yonko>
+        <scar>1</scar>
+        <wapon>sword</wapon>
+        <race>human</race>
+        <captain>1</captain>
+        <Vsluffy>0</Vsluffy>
+        <Vszoro>0</Vszoro>
+        <Vssanji>0</Vssanji>
+        <haki>1</haki>
     </record>
     <record>
         <name>Benn Beckman</name>
         <crew>Red-Haired Pirates</crew>
         <gender>1</gender>
         <bounty>-1</bounty>
+        <nickname>0</nickname>
+        <status>1</status>
+        <age>50</age>
+        <birthday>11/09</birthday>
+        <heigth>206</heigth>
+        <devil_fruit>-1</devil_fruit>
+        <yonko_crew>1</yonko_crew>
+        <yonko>0</yonko>
+        <scar>1</scar>
+        <wapon>-1</wapon>
+        <race>human</race>
+        <captain>0</captain>
+        <Vsluffy>0</Vsluffy>
+        <Vszoro>0</Vszoro>
+        <Vssanji>0</Vssanji>
+        <haki>1</haki>
     </record>
     <record>
         <name>Yasopp</name>
         <crew>Red-Haired Pirates</crew>
         <gender>1</gender>
         <bounty>-1</bounty>
+        <nickname>1</nickname>
+        <status>1</status>
+        <age>47</age>
+        <birthday>08/02</birthday>
+        <heigth>183</heigth>
+        <devil_fruit>-1</devil_fruit>
+        <yonko_crew>1</yonko_crew>
+        <yonko>0</yonko>
+        <scar>0</scar>
+        <wapon>-1</wapon>
+        <race>human</race>
+        <captain>0</captain>
+        <Vsluffy>0</Vsluffy>
+        <Vszoro>0</Vszoro>
+        <Vssanji>0</Vssanji>
+        <haki>1</haki>
     </record>
     <record>
         <name>Lucky Roo</name>
         <crew>Red-Haired Pirates</crew>
         <gender>1</gender>
         <bounty>-1</bounty>
+        <nickname>0</nickname>
+        <status>1</status>
+        <age>35</age>
+        <birthday>07/06</birthday>
+        <heigth>241</heigth>
+        <devil_fruit>-1</devil_fruit>
+        <yonko_crew>1</yonko_crew>
+        <yonko>0</yonko>
+        <scar>0</scar>
+        <wapon>-1</wapon>
+        <race>human</race>
+        <captain>0</captain>
+        <Vsluffy>0</Vsluffy>
+        <Vszoro>0</Vszoro>
+        <Vssanji>0</Vssanji>
+        <haki>1</haki>
     </record>
     <record>
         <name>Dracule Mihawk</name>
-        <crew>None</crew>
+        <crew>Cross Guild</crew>
         <gender>1</gender>
         <bounty>3,590,000,000</bounty>
+        <nickname>1</nickname>
+        <status>1</status>
+        <age>19</age>
+        <birthday>03/09</birthday>
+        <heigth>198</heigth>
+        <devil_fruit>0</devil_fruit>
+        <yonko_crew>1</yonko_crew>
+        <yonko>0</yonko>
+        <scar>0</scar>
+        <wapon>sword</wapon>
+        <race>human</race>
+        <captain>0</captain>
+        <Vsluffy>0</Vsluffy>
+        <Vszoro>1</Vszoro>
+        <Vssanji>0</Vssanji>
+        <haki>1</haki>
     </record>
     <record>
         <name>Trafalgar D. Water Law</name>
         <crew>Heart Pirates</crew>
         <gender>1</gender>
         <bounty>3,000,000,000</bounty>
+        <nickname>1</nickname>
+        <status>1</status>
+        <age>26</age>
+        <birthday>10/06</birthday>
+        <heigth>191</heigth>
+        <devil_fruit>1</devil_fruit>
+        <yonko_crew>0</yonko_crew>
+        <yonko>0</yonko>
+        <scar>0</scar>
+        <wapon>devil fruit, sword</wapon>
+        <race>human</race>
+        <captain>1</captain>
+        <Vsluffy>0</Vsluffy>
+        <Vszoro>0</Vszoro>
+        <Vssanji>0</Vssanji>
+        <haki>1</haki>
     </record>
     <record>
         <name>Eustass Kid</name>
         <crew>Kid Pirates</crew>
         <gender>1</gender>
         <bounty>3,000,000,000</bounty>
+        <nickname>0</nickname>
+        <status>1</status>
+        <age>23</age>
+        <birthday>01/10</birthday>
+        <heigth>205</heigth>
+        <devil_fruit>1</devil_fruit>
+        <yonko_crew>0</yonko_crew>
+        <yonko>0</yonko>
+        <scar>1</scar>
+        <wapon>devil fruit, fist</wapon>
+        <race>human</race>
+        <captain>1</captain>
+        <Vsluffy>0</Vsluffy>
+        <Vszoro>0</Vszoro>
+        <Vssanji>0</Vssanji>
+        <haki>1</haki>
     </record>
     <record>
         <name>Scratchmen Apoo</name>
         <crew>On Air Pirates</crew>
         <gender>1</gender>
         <bounty>350,000,000</bounty>
+        <nickname>0</nickname>
+        <status>1</status>
+        <age>31</age>
+        <birthday>03/19</birthday>
+        <heigth>256</heigth>
+        <devil_fruit>1</devil_fruit>
+        <yonko_crew>1</yonko_crew>
+        <yonko>0</yonko>
+        <scar>0</scar>
+        <wapon>devil fruit</wapon>
+        <race>human</race>
+        <captain>1</captain>
+        <Vsluffy>0</Vsluffy>
+        <Vszoro>1</Vszoro>
+        <Vssanji>0</Vssanji>
+        <haki>1</haki>
     </record>
     <record>
         <name>Basil Hawkins</name>
         <crew>Hawkins Pirates</crew>
         <gender>1</gender>
         <bounty>320,000,000</bounty>
+        <nickname>1</nickname>
+        <status>-1</status>
+        <age>31</age>
+        <birthday>09/09</birthday>
+        <heigth>210</heigth>
+        <devil_fruit>1</devil_fruit>
+        <yonko_crew>1</yonko_crew>
+        <yonko>0</yonko>
+        <scar>0</scar>
+        <wapon>-1</wapon>
+        <race>human</race>
+        <captain>1</captain>
+        <Vsluffy>0</Vsluffy>
+        <Vszoro>1</Vszoro>
+        <Vssanji>0</Vssanji>
+        <haki>1</haki>
     </record>
     <record>
         <name>Capone Bege</name>
         <crew>Fire Tank Pirates</crew>
         <gender>1</gender>
         <bounty>350,000,000</bounty>
+        <nickname>1</nickname>
+        <status>1</status>
+        <age>42</age>
+        <birthday>01/17</birthday>
+        <heigth>166</heigth>
+        <devil_fruit>1</devil_fruit>
+        <yonko_crew>0</yonko_crew>
+        <yonko>0</yonko>
+        <scar>0</scar>
+        <wapon>devil fruit</wapon>
+        <race>human</race>
+        <captain>1</captain>
+        <Vsluffy>1</Vsluffy>
+        <Vszoro>0</Vszoro>
+        <Vssanji>0</Vssanji>
+        <haki>0</haki>
     </record>
     <record>
         <name>Jewelry Bonney</name>
         <crew>Bonney Pirates</crew>
         <gender>0</gender>
         <bounty>320,000,000</bounty>
+        <nickname>1</nickname>
+        <status>1</status>
+        <age>12</age>
+        <birthday>09/01</birthday>
+        <heigth>174</heigth>
+        <devil_fruit>1</devil_fruit>
+        <yonko_crew>0</yonko_crew>
+        <yonko>0</yonko>
+        <scar>0</scar>
+        <wapon>devil fruit</wapon>
+        <race>human</race>
+        <captain>1</captain>
+        <Vsluffy>0</Vsluffy>
+        <Vszoro>0</Vszoro>
+        <Vssanji>0</Vssanji>
+        <haki>0</haki>
     </record>
     <record>
         <name>Charlotte Linlin</name>
         <crew>Big Mom Pirates</crew>
         <gender>0</gender>
         <bounty>4,388,000,000</bounty>
+        <nickname>1</nickname>
+        <status>-1</status>
+        <age>68</age>
+        <birthday>03/15</birthday>
+        <heigth>880</heigth>
+        <devil_fruit>1</devil_fruit>
+        <yonko_crew>1</yonko_crew>
+        <yonko>1</yonko>
+        <scar>0</scar>
+        <wapon>devil fruit, fist, sword</wapon>
+        <race>human</race>
+        <captain>1</captain>
+        <Vsluffy>1</Vsluffy>
+        <Vszoro>0</Vszoro>
+        <Vssanji>0</Vssanji>
+        <haki>1</haki>
     </record>
     <record>
         <name>Kaido</name>
         <crew>Beasts Pirates</crew>
         <gender>1</gender>
         <bounty>4,611,100,000</bounty>
+        <nickname>1</nickname>
+        <status>-1</status>
+        <age>59</age>
+        <birthday>05/01</birthday>
+        <heigth>710</heigth>
+        <devil_fruit>1</devil_fruit>
+        <yonko_crew>1</yonko_crew>
+        <yonko>1</yonko>
+        <scar>1</scar>
+        <wapon>devil fruit, kanabo</wapon>
+        <race>human</race>
+        <captain>1</captain>
+        <Vsluffy>1</Vsluffy>
+        <Vszoro>1</Vszoro>
+        <Vssanji>0</Vssanji>
+        <haki>1</haki>
     </record>
     <record>
         <name>Charlotte Katakuri</name>
         <crew>Big Mom Pirates</crew>
         <gender>1</gender>
         <bounty>1,057,000,000</bounty>
+        <nickname>0</nickname>
+        <status>1</status>
+        <age>48</age>
+        <birthday>11/25</birthday>
+        <heigth>509</heigth>
+        <devil_fruit>1</devil_fruit>
+        <yonko_crew>1</yonko_crew>
+        <yonko>0</yonko>
+        <scar>1</scar>
+        <wapon>devil fruit, fist</wapon>
+        <race>human</race>
+        <captain>0</captain>
+        <Vsluffy>1</Vsluffy>
+        <Vszoro>0</Vszoro>
+        <Vssanji>0</Vssanji>
+        <haki>1</haki>
     </record>
     <record>
         <name>Charlotte Smoothie</name>
         <crew>Big Mom Pirates</crew>
         <gender>0</gender>
         <bounty>932,000,000</bounty>
+        <nickname>0</nickname>
+        <status>1</status>
+        <age>35</age>
+        <birthday>10/12</birthday>
+        <heigth>464</heigth>
+        <devil_fruit>1</devil_fruit>
+        <yonko_crew>1</yonko_crew>
+        <yonko>0</yonko>
+        <scar>0</scar>
+        <wapon>devil fruit, sword</wapon>
+        <race>human</race>
+        <captain>0</captain>
+        <Vsluffy>0</Vsluffy>
+        <Vszoro>0</Vszoro>
+        <Vssanji>0</Vssanji>
+        <haki>1</haki>
     </record>
     <record>
         <name>Marshall D. Teach</name>
         <crew>Blackbeard Pirates</crew>
         <gender>1</gender>
         <bounty>3,996,000,000</bounty>
+        <nickname>1</nickname>
+        <status>1</status>
+        <age>40</age>
+        <birthday>08/03</birthday>
+        <heigth>344</heigth>
+        <devil_fruit>1</devil_fruit>
+        <yonko_crew>1</yonko_crew>
+        <yonko>1</yonko>
+        <scar>0</scar>
+        <wapon>devil fruit, fist</wapon>
+        <race>human</race>
+        <captain>1</captain>
+        <Vsluffy>0</Vsluffy>
+        <Vszoro>0</Vszoro>
+        <Vssanji>0</Vssanji>
+        <haki>1</haki>
     </record>
     <record>
         <name>Jesus Burgess</name>
         <crew>Blackbeard Pirates</crew>
         <gender>1</gender>
         <bounty>20,000,000</bounty>
+        <nickname>1</nickname>
+        <status>1</status>
+        <age>29</age>
+        <birthday>12/25</birthday>
+        <heigth>355</heigth>
+        <devil_fruit>-1</devil_fruit>
+        <yonko_crew>1</yonko_crew>
+        <yonko>0</yonko>
+        <scar>0</scar>
+        <wapon>fist</wapon>
+        <race>human</race>
+        <captain>0</captain>
+        <Vsluffy>0</Vsluffy>
+        <Vszoro>0</Vszoro>
+        <Vssanji>0</Vssanji>
+        <haki>1</haki>
     </record>
     <record>
         <name>Van Augur</name>
         <crew>Blackbeard Pirates</crew>
         <gender>1</gender>
         <bounty>64,000,000</bounty>
+        <nickname>1</nickname>
+        <status>1</status>
+        <age>27</age>
+        <birthday>10/05</birthday>
+        <heigth>340</heigth>
+        <devil_fruit>-1</devil_fruit>
+        <yonko_crew>1</yonko_crew>
+        <yonko>0</yonko>
+        <scar>0</scar>
+        <wapon>sniper</wapon>
+        <race>human</race>
+        <captain>0</captain>
+        <Vsluffy>0</Vsluffy>
+        <Vszoro>0</Vszoro>
+        <Vssanji>0</Vssanji>
+        <haki>0</haki>
     </record>
     <record>
         <name>Doc Q</name>
         <crew>Blackbeard Pirates</crew>
         <gender>1</gender>
         <bounty>72,000,000</bounty>
+        <nickname>1</nickname>
+        <status>1</status>
+        <age>28</age>
+        <birthday>10/18</birthday>
+        <heigth>342</heigth>
+        <devil_fruit>-1</devil_fruit>
+        <yonko_crew>1</yonko_crew>
+        <yonko>0</yonko>
+        <scar>0</scar>
+        <wapon>-1</wapon>
+        <race>human</race>
+        <captain>0</captain>
+        <Vsluffy>0</Vsluffy>
+        <Vszoro>0</Vszoro>
+        <Vssanji>0</Vssanji>
+        <haki>0</haki>
     </record>
     <record>
         <name>Lafitte</name>
         <crew>Blackbeard Pirates</crew>
         <gender>1</gender>
         <bounty>42,200,000</bounty>
+        <nickname>1</nickname>
+        <status>1</status>
+        <age>41</age>
+        <birthday>03/13</birthday>
+        <heigth>340</heigth>
+        <devil_fruit>-1</devil_fruit>
+        <yonko_crew>1</yonko_crew>
+        <yonko>0</yonko>
+        <scar>0</scar>
+        <wapon>-1</wapon>
+        <race>human</race>
+        <captain>0</captain>
+        <Vsluffy>0</Vsluffy>
+        <Vszoro>0</Vszoro>
+        <Vssanji>0</Vssanji>
+        <haki>0</haki>
     </record>
     <record>
         <name>Buggy</name>
-        <crew>Buggy's Delivery</crew>
+        <crew>Cross Guild</crew>
         <gender>1</gender>
         <bounty>3,189,000,000</bounty>
+        <nickname>1</nickname>
+        <status>1</status>
+        <age>39</age>
+        <birthday>08/08</birthday>
+        <heigth>192</heigth>
+        <devil_fruit>1</devil_fruit>
+        <yonko_crew>1</yonko_crew>
+        <yonko>1</yonko>
+        <scar>0</scar>
+        <wapon>devil fruit, sword</wapon>
+        <race>human</race>
+        <captain>1</captain>
+        <Vsluffy>1</Vsluffy>
+        <Vszoro>1</Vszoro>
+        <Vssanji>0</Vssanji>
+        <haki>0</haki>
     </record>
     <record>
         <name>Alvida</name>
-        <crew>Buggy's Delivery</crew>
+        <crew>Cross Guild</crew>
         <gender>0</gender>
         <bounty>5,000,000</bounty>
+        <nickname>1</nickname>
+        <status>1</status>
+        <age>27</age>
+        <birthday>03/14</birthday>
+        <heigth>198</heigth>
+        <devil_fruit>1</devil_fruit>
+        <yonko_crew>1</yonko_crew>
+        <yonko>0</yonko>
+        <scar>0</scar>
+        <wapon>mace</wapon>
+        <race>human</race>
+        <captain>0</captain>
+        <Vsluffy>1</Vsluffy>
+        <Vszoro>0</Vszoro>
+        <Vssanji>0</Vssanji>
+        <haki>0</haki>
     </record>
     <record>
         <name>Donquixote Doflamingo</name>
         <crew>Donquixote Pirates</crew>
         <gender>1</gender>
         <bounty>340,000,000</bounty>
+        <nickname>1</nickname>
+        <status>1</status>
+        <age>41</age>
+        <birthday>10/03</birthday>
+        <heigth>305</heigth>
+        <devil_fruit>1</devil_fruit>
+        <yonko_crew>0</yonko_crew>
+        <yonko>0</yonko>
+        <scar>0</scar>
+        <wapon>devil fruit</wapon>
+        <race>human</race>
+        <captain>1</captain>
+        <Vsluffy>1</Vsluffy>
+        <Vszoro>0</Vszoro>
+        <Vssanji>0</Vssanji>
+        <haki>1</haki>
     </record>
     <record>
         <name>Bellamy</name>
         <crew>Bellamy Pirates</crew>
         <gender>1</gender>
         <bounty>195,000,000</bounty>
+        <nickname>1</nickname>
+        <status>1</status>
+        <age>27</age>
+        <birthday>08/07</birthday>
+        <heigth>240</heigth>
+        <devil_fruit>1</devil_fruit>
+        <yonko_crew>0</yonko_crew>
+        <yonko>0</yonko>
+        <scar>1</scar>
+        <wapon>devil fruit, fist</wapon>
+        <race>human</race>
+        <captain>0</captain>
+        <Vsluffy>1</Vsluffy>
+        <Vszoro>0</Vszoro>
+        <Vssanji>0</Vssanji>
+        <haki>1</haki>
     </record>
     <record>
         <name>Cavendish</name>
         <crew>Beautiful Pirates</crew>
         <gender>1</gender>
         <bounty>330,000,000</bounty>
+        <nickname>1</nickname>
+        <status>1</status>
+        <age>26</age>
+        <birthday>08/31</birthday>
+        <heigth>208</heigth>
+        <devil_fruit>0</devil_fruit>
+        <yonko_crew>1</yonko_crew>
+        <yonko>0</yonko>
+        <scar>0</scar>
+        <wapon>sword</wapon>
+        <race>human</race>
+        <captain>1</captain>
+        <Vsluffy>1</Vsluffy>
+        <Vszoro>0</Vszoro>
+        <Vssanji>0</Vssanji>
+        <haki>1</haki>
     </record>
     <record>
         <name>Bartolomeo</name>
-        <crew>Bartholomeo's Crew</crew>
+        <crew>Barto Club</crew>
         <gender>1</gender>
-        <bounty>200,000,000[</bounty>
+        <bounty>200,000,000[</bounty>\
+        <nickname>1</nickname>
+        <status>1</status>
+        <age>24</age>
+        <birthday>08/06</birthday>
+        <heigth>220</heigth>
+        <devil_fruit>1</devil_fruit>
+        <yonko_crew>1</yonko_crew>
+        <yonko>0</yonko>
+        <scar>0</scar>
+        <wapon>devil fruit</wapon>
+        <race>human</race>
+        <captain>1</captain>
+        <Vsluffy>0</Vsluffy>
+        <Vszoro>0</Vszoro>
+        <Vssanji>0</Vssanji>
+        <haki>0</haki>
     </record>
     <record>
         <name>Ideo</name>
         <crew>Ideo Pirates</crew>
         <gender>1</gender>
         <bounty>-1</bounty>
+        <nickname>1</nickname>
+        <status>1</status>
+        <age>22</age>
+        <birthday>08/10</birthday>
+        <heigth>225</heigth>
+        <devil_fruit>0</devil_fruit>
+        <yonko_crew>1</yonko_crew>
+        <yonko>0</yonko>
+        <scar>0</scar>
+        <wapon>fist</wapon>
+        <race>human</race>
+        <captain>1</captain>
+        <Vsluffy>1</Vsluffy>
+        <Vszoro>0</Vszoro>
+        <Vssanji>0</Vssanji>
+        <haki>0</haki>
     </record>
     <record>
         <name>Sai</name>
         <crew>Happo Navy</crew>
         <gender>1</gender>
         <bounty>210,000,000</bounty>
+        <nickname>0</nickname>
+        <status>1</status>
+        <age>28</age>
+        <birthday>08/13</birthday>
+        <heigth>242</heigth>
+        <devil_fruit>0</devil_fruit>
+        <yonko_crew>1</yonko_crew>
+        <yonko>0</yonko>
+        <scar>0</scar>
+        <wapon>sword</wapon>
+        <race>human</race>
+        <captain>1</captain>
+        <Vsluffy>1</Vsluffy>
+        <Vszoro>0</Vszoro>
+        <Vssanji>0</Vssanji>
+        <haki>1</haki>
     </record>
     <record>
         <name>Leo</name>
         <crew>Tontatta Pirates</crew>
         <gender>1</gender>
         <bounty>-1</bounty>
+        <nickname>0</nickname>
+        <status>1</status>
+        <age>25</age>
+        <birthday>07/24</birthday>
+        <heigth>23</heigth>
+        <devil_fruit>1</devil_fruit>
+        <yonko_crew>1</yonko_crew>
+        <yonko>0</yonko>
+        <scar>0</scar>
+        <wapon>devil fruit</wapon>
+        <race>tontatta</race>
+        <captain>1</captain>
+        <Vsluffy>0</Vsluffy>
+        <Vszoro>0</Vszoro>
+        <Vssanji>0</Vssanji>
+        <haki>0</haki>
     </record>
     <record>
         <name>Hajrudin</name>
         <crew>New Giant Pirates</crew>
         <gender>1</gender>
         <bounty>-1</bounty>
+        <nickname>0</nickname>
+        <status>1</status>
+        <age>81</age>
+        <birthday>08/12</birthday>
+        <heigth>2200</heigth>
+        <devil_fruit>0</devil_fruit>
+        <yonko_crew>1</yonko_crew>
+        <yonko>0</yonko>
+        <scar>0</scar>
+        <wapon>fist, sword</wapon>
+        <race>giant</race>
+        <captain>1</captain>
+        <Vsluffy>1</Vsluffy>
+        <Vszoro>0</Vszoro>
+        <Vssanji>0</Vssanji>
+        <haki>0</haki>
     </record>
     <record>
-        <name>Elizabello II</name>
-        <crew>Elizabello Crew</crew>
+        <name>Marco</name>
+        <crew>Whitebeard Pirates</crew>
         <gender>1</gender>
-        <bounty>-1</bounty>
+        <bounty>1,374,000,000</bounty>
+        <nickname>1</nickname>
+        <status>1</status>
+        <age>45</age>
+        <birthday>10/05</birthday>
+        <heigth>203</heigth>
+        <devil_fruit>1</devil_fruit>
+        <yonko_crew>1</yonko_crew>
+        <yonko>0</yonko>
+        <scar>0</scar>
+        <wapon>devil fruit, fist</wapon>
+        <race>human</race>
+        <captain>0</captain>
+        <Vsluffy>0</Vsluffy>
+        <Vszoro>0</Vszoro>
+        <Vssanji>0</Vssanji>
+        <haki>1</haki>
     </record>
     <record>
-        <name>Suleiman</name>
-        <crew>Elizabello Crew</crew>
+        <name>Portgas D. Ace</name>
+        <crew>Whitebeard Pirates</crew>
         <gender>1</gender>
-        <bounty>67,000,000</bounty>
+        <bounty>550,000,000</bounty>
+        <nickname>1</nickname>
+        <status>0</status>
+        <age>20</age>
+        <birthday>01/01</birthday>
+        <heigth>185</heigth>
+        <devil_fruit>1</devil_fruit>
+        <yonko_crew>1</yonko_crew>
+        <yonko>0</yonko>
+        <scar>0</scar>
+        <wapon>devil fruit, fist</wapon>
+        <race>human</race>
+        <captain>0</captain>
+        <Vsluffy>1</Vsluffy>
+        <Vszoro>0</Vszoro>
+        <Vssanji>0</Vssanji>
+        <haki>1</haki>
     </record>
     <record>
         <name>Orlumbus</name>
         <crew>Yonta Maria Grand Fleet</crew>
         <gender>1</gender>
         <bounty>148,000,000</bounty>
+        <nickname>1</nickname>
+        <status>1</status>
+        <age>42</age>
+        <birthday>07/23</birthday>
+        <heigth>480</heigth>
+        <devil_fruit>0</devil_fruit>
+        <yonko_crew>1</yonko_crew>
+        <yonko>0</yonko>
+        <scar>0</scar>
+        <wapon>fist</wapon>
+        <race>human</race>
+        <captain>1</captain>
+        <Vsluffy>0</Vsluffy>
+        <Vszoro>0</Vszoro>
+        <Vssanji>0</Vssanji>
+        <haki>0</haki>
     </record>
     <record>
         <name>Urouge</name>
         <crew>Fallen Monk Pirates</crew>
         <gender>1</gender>
         <bounty>108,000,000</bounty>
+        <nickname>1</nickname>
+        <status>1</status>
+        <age>47</age>
+        <birthday>8/01</birthday>
+        <heigth>388</heigth>
+        <devil_fruit>-1</devil_fruit>
+        <yonko_crew>0</yonko_crew>
+        <yonko>0</yonko>
+        <scar>0</scar>
+        <wapon>fist</wapon>
+        <race>human</race>
+        <captain>1</captain>
+        <Vsluffy>0</Vsluffy>
+        <Vszoro>0</Vszoro>
+        <Vssanji>0</Vssanji>
+        <haki>0</haki>
     </record>
     <record>
         <name>X Drake</name>
         <crew>Drake Pirates</crew>
         <gender>1</gender>
         <bounty>222,000,000</bounty>
+        <nickname>1</nickname>
+        <status>-1</status>
+        <age>33</age>
+        <birthday>10/24</birthday>
+        <heigth>233</heigth>
+        <devil_fruit>1</devil_fruit>
+        <yonko_crew>0</yonko_crew>
+        <yonko>0</yonko>
+        <scar>0</scar>
+        <wapon>devil fruit, sword</wapon>
+        <race>human</race>
+        <captain>1</captain>
+        <Vsluffy>0</Vsluffy>
+        <Vszoro>1</Vszoro>
+        <Vssanji>0</Vssanji>
+        <haki>1</haki>
     </record>
     <record>
         <name>Rockstar</name>
         <crew>Red Hair Pirates</crew>
         <gender>1</gender>
         <bounty>94,000,000</bounty>
+        <nickname>1</nickname>
+        <status>1</status>
+        <age>-1</age>
+        <birthday>06/09</birthday>
+        <heigth>-1</heigth>
+        <devil_fruit>0</devil_fruit>
+        <yonko_crew>1</yonko_crew>
+        <yonko>0</yonko>
+        <scar>0</scar>
+        <wapon>sword</wapon>
+        <race>human</race>
+        <captain>0</captain>
+        <Vsluffy>0</Vsluffy>
+        <Vszoro>0</Vszoro>
+        <Vssanji>0</Vssanji>
+        <haki>0</haki>
     </record>
     <record>
-        <name>Wetton</name>
-        <crew>None</crew>
+        <name>Jozu</name>
+        <crew>Whitebeard Pirates</crew>
         <gender>1</gender>
-        <bounty>14,800,000</bounty>
+        <bounty>-1</bounty>
+        <nickname>1</nickname>
+        <status>1</status>
+        <age>42</age>
+        <birthday>10/11</birthday>
+        <heigth>503</heigth>
+        <devil_fruit>1</devil_fruit>
+        <yonko_crew>1</yonko_crew>
+        <yonko>0</yonko>
+        <scar>0</scar>
+        <wapon>devil fruit</wapon>
+        <race>human</race>
+        <captain>0</captain>
+        <Vsluffy>0</Vsluffy>
+        <Vszoro>0</Vszoro>
+        <Vssanji>0</Vssanji>
+        <haki>1</haki>
     </record>
     <record>
         <name>Kuroobi</name>
         <crew>Arlong Pirates</crew>
         <gender>1</gender>
         <bounty>9,000,000</bounty>
+        <nickname>0</nickname>
+        <status>1</status>
+        <age>38</age>
+        <birthday>10/25</birthday>
+        <heigth>252</heigth>
+        <devil_fruit>0</devil_fruit>
+        <yonko_crew>0</yonko_crew>
+        <yonko>0</yonko>
+        <scar>0</scar>
+        <wapon>fist</wapon>
+        <race>fishMan</race>
+        <captain>0</captain>
+        <Vsluffy>0</Vsluffy>
+        <Vszoro>0</Vszoro>
+        <Vssanji>1</Vssanji>
+        <haki>0</haki>
     </record>
     <record>
         <name>Hatchan</name>
         <crew>Arlong Pirates</crew>
         <gender>1</gender>
         <bounty>8,000,000</bounty>
+        <nickname>1</nickname>
+        <status>1</status>
+        <age>38</age>
+        <birthday>08/08</birthday>
+        <heigth>220</heigth>
+        <devil_fruit>0</devil_fruit>
+        <yonko_crew>0</yonko_crew>
+        <yonko>0</yonko>
+        <scar>0</scar>
+        <wapon>sword</wapon>
+        <race>fishMan</race>
+        <captain>0</captain>
+        <Vsluffy>0</Vsluffy>
+        <Vszoro>1</Vszoro>
+        <Vssanji>0</Vssanji>
+        <haki>0</haki>
     </record>
     <record>
         <name>Chew</name>
         <crew>Arlong Pirates</crew>
         <gender>1</gender>
         <bounty>5,500,000</bounty>
+        <nickname>0</nickname>
+        <status>1</status>
+        <age>35</age>
+        <birthday>05/23</birthday>
+        <heigth>257</heigth>
+        <devil_fruit>0</devil_fruit>
+        <yonko_crew>0</yonko_crew>
+        <yonko>0</yonko>
+        <scar>0</scar>
+        <wapon>fist</wapon>
+        <race>fishMan</race>
+        <captain>0</captain>
+        <Vsluffy>0</Vsluffy>
+        <Vszoro>0</Vszoro>
+        <Vssanji>0</Vssanji>
+        <haki>0</haki>
     </record>
     <record>
         <name>Arlong</name>
         <crew>Arlong Pirates</crew>
         <gender>1</gender>
         <bounty>20,000,000</bounty>
+        <nickname>1</nickname>
+        <status>1</status>
+        <age>41</age>
+        <birthday>05/03</birthday>
+        <heigth>263</heigth>
+        <devil_fruit>0</devil_fruit>
+        <yonko_crew>0</yonko_crew>
+        <yonko>0</yonko>
+        <scar>0</scar>
+        <wapon>fist</wapon>
+        <race>fishMan</race>
+        <captain>1</captain>
+        <Vsluffy>1</Vsluffy>
+        <Vszoro>0</Vszoro>
+        <Vssanji>0</Vssanji>
+        <haki>0</haki>
     </record>
     <record>
         <name>Wapol</name>
         <crew>Bliking Pirates</crew>
         <gender>1</gender>
         <bounty>-1</bounty>
+        <nickname>1</nickname>
+        <status>1</status>
+        <age>29</age>
+        <birthday>08/09</birthday>
+        <heigth>207</heigth>
+        <devil_fruit>1</devil_fruit>
+        <yonko_crew>0</yonko_crew>
+        <yonko>0</yonko>
+        <scar>0</scar>
+        <wapon>devil fruit</wapon>
+        <race>human</race>
+        <captain>1</captain>
+        <Vsluffy>1</Vsluffy>
+        <Vszoro>0</Vszoro>
+        <Vssanji>0</Vssanji>
+        <haki>0</haki>
     </record>
     <record>
         <name>Bepo</name>
         <crew>Heart Pirates</crew>
         <gender>1</gender>
         <bounty>500</bounty>
+        <nickname>0</nickname>
+        <status>1</status>
+        <age>22</age>
+        <birthday>11/20</birthday>
+        <heigth>240</heigth>
+        <devil_fruit>0</devil_fruit>
+        <yonko_crew>0</yonko_crew>
+        <yonko>0</yonko>
+        <scar>0</scar>
+        <wapon>fist</wapon>
+        <race>minks</race>
+        <captain>0</captain>
+        <Vsluffy>0</Vsluffy>
+        <Vszoro>0</Vszoro>
+        <Vssanji>0</Vssanji>
+        <haki>0</haki>
     </record>
     <record>
         <name>Caribou</name>
         <crew>Caribou Pirates</crew>
         <gender>1</gender>
         <bounty>210,000,000</bounty>
+        <nickname>1</nickname>
+        <status>1</status>
+        <age>32</age>
+        <birthday>07/04</birthday>
+        <heigth>228</heigth>
+        <devil_fruit>1</devil_fruit>
+        <yonko_crew>0</yonko_crew>
+        <yonko>0</yonko>
+        <scar>0</scar>
+        <wapon>devil fruit</wapon>
+        <race>human</race>
+        <captain>1</captain>
+        <Vsluffy>0</Vsluffy>
+        <Vszoro>0</Vszoro>
+        <Vssanji>0</Vssanji>
+        <haki>0</haki>
     </record>
     <record>
         <name>Caesar Clown</name>
         <crew>Donquixote Pirates</crew>
         <gender>1</gender>
         <bounty>300,000,000</bounty>
+        <nickname>1</nickname>
+        <status>1</status>
+        <age>55</age>
+        <birthday>04/09</birthday>
+        <heigth>309</heigth>
+        <devil_fruit>1</devil_fruit>
+        <yonko_crew>0</yonko_crew>
+        <yonko>0</yonko>
+        <scar>0</scar>
+        <wapon>devil fruit</wapon>
+        <race>human</race>
+        <captain>0</captain>
+        <Vsluffy>1</Vsluffy>
+        <Vszoro>0</Vszoro>
+        <Vssanji>0</Vssanji>
+        <haki>0</haki>
     </record>
     <record>
-        <name>Galdino</name>
-        <crew>Baroque Works</crew>
-        <gender>1</gender>
-    </record>
-    <record>
-        <name>Mr. 2 Bon Kurei</name>
-        <crew>Baroque Works</crew>
-        <gender>1</gender>
-        <bounty>1,000</bounty>
-    </record>
-    <record>
-        <name>Mr. 3</name>
+        <name>Mr 3</name>
         <crew>Baroque Works</crew>
         <gender>1</gender>
         <bounty>24,000,000</bounty>
+        <nickname>1</nickname>
+        <status>1</status>
+        <age>37</age>
+        <birthday>03/03</birthday>
+        <heigth>179</heigth>
+        <devil_fruit>1</devil_fruit>
+        <yonko_crew>0</yonko_crew>
+        <yonko>0</yonko>
+        <scar>0</scar>
+        <wapon>devil fruit</wapon>
+        <race>human</race>
+        <captain>0</captain>
+        <Vsluffy>1</Vsluffy>
+        <Vszoro>0</Vszoro>
+        <Vssanji>1</Vssanji>
+        <haki>0</haki>
     </record>
     <record>
-        <name>Mr. 4</name>
+        <name>Edward Newgate</name>
+        <crew>Whitebeard Pirates</crew>
+        <gender>1</gender>
+        <bounty>5,046,000,000[</bounty>
+        <nickname>1</nickname>
+        <status>0</status>
+        <age>72</age>
+        <birthday>04/06</birthday>
+        <heigth>666</heigth>
+        <devil_fruit>1</devil_fruit>
+        <yonko_crew>1</yonko_crew>
+        <yonko>1</yonko>
+        <scar>1</scar>
+        <wapon>devil fruit, sword</wapon>
+        <race>human</race>
+        <captain>1</captain>
+        <Vsluffy>0</Vsluffy>
+        <Vszoro>0</Vszoro>
+        <Vssanji>0</Vssanji>
+        <haki>1</haki>
+    </record>
+    <record>
+        <name>King</name>
+        <crew>Beasts Pirates</crew>
+        <gender>1</gender>
+        <bounty>1,390,000,000</bounty>
+        <nickname>1</nickname>
+        <status>1</status>
+        <age>47</age>
+        <birthday>12/01</birthday>
+        <heigth>613</heigth>
+        <devil_fruit>1</devil_fruit>
+        <yonko_crew>1</yonko_crew>
+        <yonko>0</yonko>
+        <scar>1</scar>
+        <wapon>devil fruit, sword</wapon>
+        <race>human</race>
+        <captain>lunarian</captain>
+        <Vsluffy>0</Vsluffy>
+        <Vszoro>1</Vszoro>
+        <Vssanji>1</Vssanji>
+        <haki>1</haki>
+    </record>
+    <record>
+        <name>Mr 4</name>
         <crew>Baroque Works</crew>
-        <gender>3,200,000</gender>
+        <gender>1</gender>
+        <bounty>3,200,000</bounty>
+        <nickname>1</nickname>
+        <status>1</status>
+        <age>30</age>
+        <birthday>06/19</birthday>
+        <heigth>218</heigth>
+        <devil_fruit>0</devil_fruit>
+        <yonko_crew>0</yonko_crew>
+        <yonko>0</yonko>
+        <scar>0</scar>
+        <wapon>bazooka</wapon>
+        <race>human</race>
+        <captain>0</captain>
+        <Vsluffy>0</Vsluffy>
+        <Vszoro>0</Vszoro>
+        <Vssanji>0</Vssanji>
+        <haki>1</haki>
     </record>
     <record>
         <name>Miss Doublefinger</name>
         <crew>Baroque Works</crew>
         <gender>0</gender>
         <bounty>32,000,000</bounty>
+        <nickname>1</nickname>
+        <status>1</status>
+        <age>28</age>
+        <birthday>07/30</birthday>
+        <heigth>187</heigth>
+        <devil_fruit>1</devil_fruit>
+        <yonko_crew>0</yonko_crew>
+        <yonko>0</yonko>
+        <scar>0</scar>
+        <wapon>devil fruit, fist</wapon>
+        <race>human</race>
+        <captain>0</captain>
+        <Vsluffy>0</Vsluffy>
+        <Vszoro>0</Vszoro>
+        <Vssanji>0</Vssanji>
+        <haki>0</haki>
     </record>
     <record>
         <name>Mr. 5</name>
         <crew>Baroque Works</crew>
         <gender>1</gender>
         <bounty>10,000,000</bounty>
+        <nickname>1</nickname>
+        <status>1</status>
+        <age>26</age>
+        <birthday>07/26</birthday>
+        <heigth>197</heigth>
+        <devil_fruit>1</devil_fruit>
+        <yonko_crew>0</yonko_crew>
+        <yonko>0</yonko>
+        <scar>0</scar>
+        <wapon>devil fruit</wapon>
+        <race>human</race>
+        <captain>0</captain>
+        <Vsluffy>0</Vsluffy>
+        <Vszoro>0</Vszoro>
+        <Vssanji>0</Vssanji>
+        <haki>0</haki>
     </record>
     <record>
         <name>Miss Valentine</name>
         <crew>Baroque Works</crew>
         <gender>0</gender>
         <bounty>7,500,000</bounty>
+        <nickname>1</nickname>
+        <status>1</status>
+        <age>24</age>
+        <birthday>03/14</birthday>
+        <heigth>177</heigth>
+        <devil_fruit>1</devil_fruit>
+        <yonko_crew>0</yonko_crew>
+        <yonko>0</yonko>
+        <scar>0</scar>
+        <wapon>devil fruit</wapon>
+        <race>human</race>
+        <captain>0</captain>
+        <Vsluffy>1</Vsluffy>
+        <Vszoro>1</Vszoro>
+        <Vssanji>0</Vssanji>
+        <haki>0</haki>
     </record>
     <record>
-        <name>Shiki</name>
-        <crew>Golden Lion Pirates</crew>
+        <name>Queen</name>
+        <crew>Beasts Pirates</crew>
         <gender>1</gender>
-        <bounty>-1</bounty>
+        <bounty>1,320,000,000</bounty>
+        <nickname>1</nickname>
+        <status>1</status>
+        <age>56</age>
+        <birthday>07/13</birthday>
+        <heigth>612</heigth>
+        <devil_fruit>1</devil_fruit>
+        <yonko_crew>1</yonko_crew>
+        <yonko>0</yonko>
+        <scar>1</scar>
+        <wapon>devil fruit, body</wapon>
+        <race>human</race>
+        <captain>0</captain>
+        <Vsluffy>0</Vsluffy>
+        <Vszoro>1</Vszoro>
+        <Vssanji>1</Vssanji>
+        <haki>1</haki>
     </record>
     <record>
-        <name>Dr. Indigo</name>
-        <crew>Golden Lion Pirates</crew>
+        <name>Jack</name>
+        <crew>Beasts Pirates</crew>
         <gender>1</gender>
-        <bounty>-1</bounty>
+        <bounty>1,000,000,000</bounty>
+        <nickname>1</nickname>
+        <status>1</status>
+        <age>28</age>
+        <birthday>09/28</birthday>
+        <heigth>830</heigth>
+        <devil_fruit>1</devil_fruit>
+        <yonko_crew>1</yonko_crew>
+        <yonko>0</yonko>
+        <scar>0</scar>
+        <wapon>devil fruit, sword</wapon>
+        <race>human</race>
+        <captain>0</captain>
+        <Vsluffy>0</Vsluffy>
+        <Vszoro>0</Vszoro>
+        <Vssanji>0</Vssanji>
+        <haki>1</haki>
     </record>
     <record>
         <name>Charlotte Oven</name>
         <crew>Big Mom Pirates</crew>
         <gender>1</gender>
         <bounty>300,000,000</bounty>
+        <nickname>0</nickname>
+        <status>1</status>
+        <age>48</age>
+        <birthday>11/25</birthday>
+        <heigth>492</heigth>
+        <devil_fruit>1</devil_fruit>
+        <yonko_crew>1</yonko_crew>
+        <yonko>0</yonko>
+        <scar>0</scar>
+        <wapon>devil fruit, fist</wapon>
+        <race>human</race>
+        <captain>0</captain>
+        <Vsluffy>1</Vsluffy>
+        <Vszoro>0</Vszoro>
+        <Vssanji>1</Vssanji>
+        <haki>1</haki>
     </record>
     <record>
         <name>Charlotte Perospero</name>
         <crew>Big Mom Pirates</crew>
         <gender>1</gender>
         <bounty>700,000,000</bounty>
+        <nickname>0</nickname>
+        <status>1</status>
+        <age>50</age>
+        <birthday>03/14</birthday>
+        <heigth>333</heigth>
+        <devil_fruit>1</devil_fruit>
+        <yonko_crew>1</yonko_crew>
+        <yonko>0</yonko>
+        <scar>0</scar>
+        <wapon>devil fruit</wapon>
+        <race>human</race>
+        <captain>0</captain>
+        <Vsluffy>0</Vsluffy>
+        <Vszoro>0</Vszoro>
+        <Vssanji>1</Vssanji>
+        <haki>1</haki>
     </record>
     <record>
         <name>Tamago</name>
         <crew>Big Mom Pirates</crew>
         <gender>1</gender>
         <bounty>429,000,000</bounty>
+        <nickname>1</nickname>
+        <status>1</status>
+        <age>46</age>
+        <birthday>05/14</birthday>
+        <heigth>301</heigth>
+        <devil_fruit>1</devil_fruit>
+        <yonko_crew>1</yonko_crew>
+        <yonko>0</yonko>
+        <scar>0</scar>
+        <wapon>devil fruit</wapon>
+        <race>human</race>
+        <captain>0</captain>
+        <Vsluffy>0</Vsluffy>
+        <Vszoro>0</Vszoro>
+        <Vssanji>0</Vssanji>
+        <haki>1</haki>
     </record>
     <record>
         <name>Mohji</name>
         <crew>Cross Guild</crew>
         <gender>1</gender>
         <bounty>-1</bounty>
+        <nickname>1</nickname>
+        <status>1</status>
+        <age>29</age>
+        <birthday>10/01</birthday>
+        <heigth>197</heigth>
+        <devil_fruit>0</devil_fruit>
+        <yonko_crew>1</yonko_crew>
+        <yonko>0</yonko>
+        <scar>0</scar>
+        <wapon>lion</wapon>
+        <race>human</race>
+        <captain>0</captain>
+        <Vsluffy>1</Vsluffy>
+        <Vszoro>0</Vszoro>
+        <Vssanji>0</Vssanji>
+        <haki>0</haki>
     </record>
     <record>
         <name>Cabaji</name>
         <crew>Cross Guild</crew>
         <gender>1</gender>
         <bounty>-1</bounty>
+        <nickname>1</nickname>
+        <status>1</status>
+        <age>34</age>
+        <birthday>09/08</birthday>
+        <heigth>208</heigth>
+        <devil_fruit>0</devil_fruit>
+        <yonko_crew>1</yonko_crew>
+        <yonko>0</yonko>
+        <scar>0</scar>
+        <wapon>sword</wapon>
+        <race>human</race>
+        <captain>0</captain>
+        <Vsluffy>0</Vsluffy>
+        <Vszoro>1</Vszoro>
+        <Vssanji>0</Vssanji>
+        <haki>0</haki>
     </record>
     <record>
-        <name>Richie</name>
-        <crew>Cross Guild</crew>
-        <gender>1</gender>
-        <bounty>-1</bounty>
+        <name>Black Maria</name>
+        <crew>Beasts Pirates </crew>
+        <gender>0</gender>
+        <bounty>480,000,000</bounty>
+        <nickname>0</nickname>
+        <status>1</status>
+        <age>29</age>
+        <birthday>09/24</birthday>
+        <heigth>820</heigth>
+        <devil_fruit>1</devil_fruit>
+        <yonko_crew>1</yonko_crew>
+        <yonko>0</yonko>
+        <scar>0</scar>
+        <wapon>devil fruit, fist</wapon>
+        <race>human</race>
+        <captain>0</captain>
+        <Vsluffy>0</Vsluffy>
+        <Vszoro>0</Vszoro>
+        <Vssanji>1</Vssanji>
+        <haki>1</haki>
     </record>
     <record>
-        <name>Daz Bones</name>
+        <name>Mr 1</name>
         <crew>Cross Guild</crew>
         <gender>1</gender>
         <bounty>75,000,000</bounty>
+        <nickname>1</nickname>
+        <status>1</status>
+        <age>31</age>
+        <birthday>01/01</birthday>
+        <heigth>212</heigth>
+        <devil_fruit>1</devil_fruit>
+        <yonko_crew>1</yonko_crew>
+        <yonko>0</yonko>
+        <scar>0</scar>
+        <wapon>devil fruit</wapon>
+        <race>human</race>
+        <captain>0</captain>
+        <Vsluffy>0</Vsluffy>
+        <Vszoro>1</Vszoro>
+        <Vssanji>0</Vssanji>
+        <haki>0</haki>
     </record>
     <record>
-        <name>Bentham</name>
+        <name>Mr 2</name>
         <crew>Newkama Land</crew>
-        <gender>1</gender>
+        <gender>2</gender>
         <bounty>32,000,000</bounty>
+        <nickname>1</nickname>
+        <status>1</status>
+        <age>32</age>
+        <birthday>08/15</birthday>
+        <heigth>238</heigth>
+        <devil_fruit>1</devil_fruit>
+        <yonko_crew>0</yonko_crew>
+        <yonko>0</yonko>
+        <scar>0</scar>
+        <wapon>devil fruit, legs</wapon>
+        <race>human</race>
+        <captain>0</captain>
+        <Vsluffy>0</Vsluffy>
+        <Vszoro>0</Vszoro>
+        <Vssanji>1</Vssanji>
+        <haki>0</haki>
     </record>
     <record>
-        <name>Hannyabal</name>
-        <crew>Impel Down</crew>
+        <name>Vista</name>
+        <crew>Whitebeard Pirates</crew>
         <gender>1</gender>
         <bounty>-1</bounty>
+        <nickname>1</nickname>
+        <status>1</status>
+        <age>47</age>
+        <birthday>02/05</birthday>
+        <heigth>328</heigth>
+        <devil_fruit>0</devil_fruit>
+        <yonko_crew>1</yonko_crew>
+        <yonko>0</yonko>
+        <scar>0</scar>
+        <wapon>sword</wapon>
+        <race>human</race>
+        <captain>0</captain>
+        <Vsluffy>0</Vsluffy>
+        <Vszoro>0</Vszoro>
+        <Vssanji>0</Vssanji>
+        <haki>1</haki>
     </record>
     <record>
         <name>Shiryu</name>
         <crew>Blackbeard Pirates</crew>
         <gender>1</gender>
         <bounty>-1</bounty>
+        <nickname>1</nickname>
+        <status>1</status>
+        <age>44</age>
+        <birthday>06/11</birthday>
+        <heigth>340</heigth>
+        <devil_fruit>-1</devil_fruit>
+        <yonko_crew>1</yonko_crew>
+        <yonko>0</yonko>
+        <scar>0</scar>
+        <wapon>sword</wapon>
+        <race>human</race>
+        <captain>0</captain>
+        <Vsluffy>0</Vsluffy>
+        <Vszoro>0</Vszoro>
+        <Vssanji>0</Vssanji>
+        <haki>1</haki>
     </record>
     <record>
-        <name>Vasco Shot</name>
-        <crew>Blackbeard Pirates</crew>
+        <name>Izou</name>
+        <crew>Whitebeard Pirates </crew>
         <gender>1</gender>
-        <bounty>-1</bounty>
-    </record>
-    <record>
-        <name>Catarina Devon</name>
-        <crew>Blackbeard Pirates</crew>
-        <gender>0</gender>
-        <bounty>-1</bounty>
-    </record>
-    <record>
-        <name>Blueno</name>
-        <crew>CP0</crew>
-        <gender>1</gender>
-        <bounty>-1</bounty>
-    </record>
-    <record>
-        <name>Kalifa</name>
-        <crew>CP0</crew>
-        <gender>0</gender>
-        <bounty>-1</bounty>
-    </record>
-    <record>
-        <name>Kaku</name>
-        <crew>CP0</crew>
-        <gender>1</gender>
-        <bounty>-1</bounty>
-    </record>
-    <record>
-        <name>Jabra</name>
-        <crew>CP0</crew>
-        <gender>1</gender>
-        <bounty>-1</bounty>
-    </record>
-    <record>
-        <name>Fukurou</name>
-        <crew>CP0</crew>
-        <gender>1</gender>
-        <bounty>-1</bounty>
-    </record>
-    <record>
-        <name>Rob Lucci</name>
-        <crew>CP0</crew>
-        <gender>1</gender>
-        <bounty>-1</bounty>
-    </record>
-    <record>
-        <name>Spandam</name>
-        <crew>CP0</crew>
-        <gender>1</gender>
-        <bounty>1,000</bounty>
+        <bounty>510,000,000</bounty>
+        <nickname>0</nickname>
+        <status>0</status>
+        <age>45</age>
+        <birthday>10/13</birthday>
+        <heigth>193</heigth>
+        <devil_fruit>-1</devil_fruit>
+        <yonko_crew>1</yonko_crew>
+        <yonko>0</yonko>
+        <scar>0</scar>
+        <wapon>pistol</wapon>
+        <race>human</race>
+        <captain>0</captain>
+        <Vsluffy>0</Vsluffy>
+        <Vszoro>0</Vszoro>
+        <Vssanji>0</Vssanji>
+        <haki>1</haki>
     </record>
     <record>
         <name>Absalom</name>
         <crew>Thriller Bark Pirates</crew>
         <gender>1</gender>
         <bounty>-1</bounty>
+        <nickname>1</nickname>
+        <status>0</status>
+        <age>36</age>
+        <birthday>12/30</birthday>
+        <heigth>195</heigth>
+        <devil_fruit>1</devil_fruit>
+        <yonko_crew>0</yonko_crew>
+        <yonko>0</yonko>
+        <scar>1</scar>
+        <wapon>devil fruit</wapon>
+        <race>human</race>
+        <captain>0</captain>
+        <Vsluffy>0</Vsluffy>
+        <Vszoro>0</Vszoro>
+        <Vssanji>1</Vssanji>
+        <haki>0</haki>
     </record>
     <record>
         <name>Hogback</name>
         <crew>Thriller Bark Pirates</crew>
         <gender>1</gender>
         <bounty>-1</bounty>
+        <nickname>1</nickname>
+        <status>1</status>
+        <age>47</age>
+        <birthday>12/19</birthday>
+        <heigth>223</heigth>
+        <devil_fruit>0</devil_fruit>
+        <yonko_crew>0</yonko_crew>
+        <yonko>0</yonko>
+        <scar>1</scar>
+        <wapon>minions</wapon>
+        <race>human</race>
+        <captain>0</captain>
+        <Vsluffy>0</Vsluffy>
+        <Vszoro>0</Vszoro>
+        <Vssanji>0</Vssanji>
+        <haki>0</haki>
     </record>
     <record>
         <name>Perona</name>
-        <crew>Thriller Bark Pirates</crew>
+        <crew>Dracule Mihawk</crew>
         <gender>0</gender>
-        <bounty>1,000</bounty>
+        <bounty>-1</bounty>
+        <nickname>1</nickname>
+        <status>1</status>
+        <age>25</age>
+        <birthday>06/07</birthday>
+        <heigth>160</heigth>
+        <devil_fruit>1</devil_fruit>
+        <yonko_crew>0</yonko_crew>
+        <yonko>0</yonko>
+        <scar>0</scar>
+        <wapon>devil fruit</wapon>
+        <race>human</race>
+        <captain>0</captain>
+        <Vsluffy>0</Vsluffy>
+        <Vszoro>0</Vszoro>
+        <Vssanji>0</Vssanji>
+        <haki>0</haki>
     </record>
     <record>
         <name>Gekko Moriah</name>
-        <crew>Dracule Mihawk</crew>
+        <crew>Thriller Bark Pirates </crew>
         <gender>1</gender>
-        <bounty>-1</bounty>
+        <bounty>320,000,000</bounty>
+        <nickname>1</nickname>
+        <status>1</status>
+        <age>50</age>
+        <birthday>09/06</birthday>
+        <heigth>692</heigth>
+        <devil_fruit>1</devil_fruit>
+        <yonko_crew>0</yonko_crew>
+        <yonko>0</yonko>
+        <scar>1</scar>
+        <wapon>devil fruit</wapon>
+        <race>human</race>
+        <captain>1</captain>
+        <Vsluffy>1</Vsluffy>
+        <Vszoro>1</Vszoro>
+        <Vssanji>1</Vssanji>
+        <haki>0</haki>
     </record>
     <record>
         <name>Bartholomew Kuma</name>
         <crew>Revolutionary Army</crew>
         <gender>1</gender>
         <bounty>296,000,000</bounty>
+        <nickname>1</nickname>
+        <status>1</status>
+        <age>47</age>
+        <birthday>02/09</birthday>
+        <heigth>689</heigth>
+        <devil_fruit>1</devil_fruit>
+        <yonko_crew>0</yonko_crew>
+        <yonko>0</yonko>
+        <scar>0</scar>
+        <wapon>devil fruit</wapon>
+        <race>human</race>
+        <captain>0</captain>
+        <Vsluffy>1</Vsluffy>
+        <Vszoro>1</Vszoro>
+        <Vssanji>1</Vssanji>
+        <haki>1</haki>
     </record>
     <record>
         <name>Boa Hancock</name>
         <crew>Kuja Pirates</crew>
         <gender>0</gender>
         <bounty>1,659,000,000</bounty>
+        <nickname>1</nickname>
+        <status>1</status>
+        <age>31</age>
+        <birthday>09/02</birthday>
+        <heigth>191</heigth>
+        <devil_fruit>1</devil_fruit>
+        <yonko_crew>0</yonko_crew>
+        <yonko>0</yonko>
+        <scar>0</scar>
+        <wapon>devil fruit</wapon>
+        <race>human</race>
+        <captain>1</captain>
+        <Vsluffy>0</Vsluffy>
+        <Vszoro>0</Vszoro>
+        <Vssanji>0</Vssanji>
+        <haki>1</haki>
     </record>
     <record>
         <name>Boa Sandersonia</name>
         <crew>Kuja Pirates</crew>
         <gender>0</gender>
         <bounty>40,000,000</bounty>
+        <nickname>0</nickname>
+        <status>1</status>
+        <age>30</age>
+        <birthday>09/03</birthday>
+        <heigth>453</heigth>
+        <devil_fruit>1</devil_fruit>
+        <yonko_crew>0</yonko_crew>
+        <yonko>0</yonko>
+        <scar>0</scar>
+        <wapon>devil fruit, fist</wapon>
+        <race>human</race>
+        <captain>0</captain>
+        <Vsluffy>1</Vsluffy>
+        <Vszoro>0</Vszoro>
+        <Vssanji>0</Vssanji>
+        <haki>1</haki>
     </record>
     <record>
         <name>Boa Marigold</name>
         <crew>Kuja Pirates</crew>
         <gender>0</gender>
         <bounty>40,000,000</bounty>
+        <nickname>0</nickname>
+        <status>1</status>
+        <age>28</age>
+        <birthday>09/05</birthday>
+        <heigth>432</heigth>
+        <devil_fruit>1</devil_fruit>
+        <yonko_crew>0</yonko_crew>
+        <yonko>0</yonko>
+        <scar>0</scar>
+        <wapon>devil fruit, fist</wapon>
+        <race>human</race>
+        <captain>0</captain>
+        <Vsluffy>1</Vsluffy>
+        <Vszoro>0</Vszoro>
+        <Vssanji>0</Vssanji>
+        <haki>1</haki>
     </record>
     <record>
         <name>Emporio Ivankov</name>
         <crew>Revolutionary Army</crew>
-        <gender>1</gender>
+        <gender>2</gender>
         <bounty>100,000,000</bounty>
+        <nickname>1</nickname>
+        <status>1</status>
+        <age>53</age>
+        <birthday>01/08</birthday>
+        <heigth>449</heigth>
+        <devil_fruit>1</devil_fruit>
+        <yonko_crew>0</yonko_crew>
+        <yonko>0</yonko>
+        <scar>0</scar>
+        <wapon>devil fruit</wapon>
+        <race>human</race>
+        <captain>0</captain>
+        <Vsluffy>0</Vsluffy>
+        <Vszoro>0</Vszoro>
+        <Vssanji>0</Vssanji>
+        <haki>0</haki>
     </record>
     <record>
         <name>Inazuma</name>
         <crew>Revolutionary Army</crew>
         <gender>1</gender>
         <bounty>100,000,000</bounty>
+        <nickname>0</nickname>
+        <status>1</status>
+        <age>29</age>
+        <birthday>08/03</birthday>
+        <heigth>228</heigth>
+        <devil_fruit>1</devil_fruit>
+        <yonko_crew>0</yonko_crew>
+        <yonko>0</yonko>
+        <scar>0</scar>
+        <wapon>devil fruit</wapon>
+        <race>human</race>
+        <captain>0</captain>
+        <Vsluffy>0</Vsluffy>
+        <Vszoro>0</Vszoro>
+        <Vssanji>0</Vssanji>
+        <haki>0</haki>
     </record>
     <record>
         <name>Crocodile</name>
         <crew>Cross Guild</crew>
         <gender>1</gender>
         <bounty>1,965,000,000</bounty>
+        <nickname>1</nickname>
+        <status>1</status>
+        <age>46</age>
+        <birthday>09/05</birthday>
+        <heigth>253</heigth>
+        <devil_fruit>1</devil_fruit>
+        <yonko_crew>1</yonko_crew>
+        <yonko>0</yonko>
+        <scar>1</scar>
+        <wapon>devil fruit</wapon>
+        <race>human</race>
+        <captain>0</captain>
+        <Vsluffy>1</Vsluffy>
+        <Vszoro>0</Vszoro>
+        <Vssanji>0</Vssanji>
+        <haki>0</haki>
     </record>
     <record>
         <name>Ulti</name>
         <crew>Beasts Pirates</crew>
-        <gender>1</gender>
+        <gender>0</gender>
         <bounty>400,000,000</bounty>
+        <nickname>0</nickname>
+        <status>1</status>
+        <age>22</age>
+        <birthday>01/04</birthday>
+        <heigth>173</heigth>
+        <devil_fruit>1</devil_fruit>
+        <yonko_crew>1</yonko_crew>
+        <yonko>0</yonko>
+        <scar>0</scar>
+        <wapon>devil fruit</wapon>
+        <race>human</race>
+        <captain>0</captain>
+        <Vsluffy>1</Vsluffy>
+        <Vszoro>0</Vszoro>
+        <Vssanji>0</Vssanji>
+        <haki>1</haki>
     </record>
     <record>
         <name>Vergo</name>
         <crew>Donquixote Pirates</crew>
         <gender>1</gender>
         <bounty>-1</bounty>
+        <nickname>1</nickname>
+        <status>1</status>
+        <age>41</age>
+        <birthday>07/05</birthday>
+        <heigth>247</heigth>
+        <devil_fruit>0</devil_fruit>
+        <yonko_crew>0</yonko_crew>
+        <yonko>0</yonko>
+        <scar>0</scar>
+        <wapon>bamboo</wapon>
+        <race>human</race>
+        <captain>0</captain>
+        <Vsluffy>0</Vsluffy>
+        <Vszoro>0</Vszoro>
+        <Vssanji>1</Vssanji>
+        <haki>1</haki>
     </record>
     <record>
         <name>Monet</name>
         <crew>Donquixote Pirates</crew>
         <gender>0</gender>
         <bounty>-1</bounty>
+        <nickname>0</nickname>
+        <status>0</status>
+        <age>30</age>
+        <birthday>08/27</birthday>
+        <heigth>227</heigth>
+        <devil_fruit>1</devil_fruit>
+        <yonko_crew>0</yonko_crew>
+        <yonko>0</yonko>
+        <scar>0</scar>
+        <wapon>devil fruit</wapon>
+        <race>human</race>
+        <captain>0</captain>
+        <Vsluffy>0</Vsluffy>
+        <Vszoro>1</Vszoro>
+        <Vssanji>0</Vssanji>
+        <haki>0</haki>
     </record>
     <record>
         <name>Sugar</name>
         <crew>Donquixote Pirates</crew>
         <gender>0</gender>
         <bounty>-1</bounty>
+        <nickname>0</nickname>
+        <status>1</status>
+        <age>22</age>
+        <birthday>10/22</birthday>
+        <heigth>110</heigth>
+        <devil_fruit>1</devil_fruit>
+        <yonko_crew>0</yonko_crew>
+        <yonko>0</yonko>
+        <scar>0</scar>
+        <wapon>devil fruit</wapon>
+        <race>human</race>
+        <captain>0</captain>
+        <Vsluffy>0</Vsluffy>
+        <Vszoro>0</Vszoro>
+        <Vssanji>0</Vssanji>
+        <haki>0</haki>
     </record>
 </records>
