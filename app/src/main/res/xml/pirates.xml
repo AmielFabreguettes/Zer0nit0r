@@ -1,103 +1,600 @@
-<?xml version="1.0" encoding="utf-8"?>
 <records>
-    <record>Monkey D. Luffy</record>
-    <record>Roronoa Zoro</record>
-    <record>Nami</record>
-    <record>Usopp</record>
-    <record>Sanji</record>
-    <record>Tony Tony Chopper</record>
-    <record>Nico Robin</record>
-    <record>Franky</record>
-    <record>Brook</record>
-    <record>Jinbe</record>
-    <record>Gol D. Roger</record>
-    <record>Silvers Rayleigh</record>
-    <record>Shanks</record>
-    <record>Benn Beckman</record>
-    <record>Yasopp</record>
-    <record>Lucky Roo</record>
-    <record>Dracule Mihawk</record>
-    <record>Trafalgar D. Water Law</record>
-    <record>Eustass Kid</record>
-    <record>Scratchmen Apoo</record>
-    <record>Basil Hawkins</record>
-    <record>Capone Bege</record>
-    <record>Jewelry Bonney</record>
-    <record>Charlotte Linlin</record>
-    <record>Kaido</record>
-    <record>Charlotte Katakuri</record>
-    <record>Charlotte Smoothie</record>
-    <record>Marshall D. Teach</record>
-    <record>Jesus Burgess</record>
-    <record>Van Augur</record>
-    <record>Doc Q</record>
-    <record>Lafitte</record>
-    <record>Buggy</record>
-    <record>Alvida</record>
-    <record>Donquixote Doflamingo</record>
-    <record>Bellamy</record>
-    <record>Cavendish</record>
-    <record>Bartolomeo</record>
-    <record>Ideo</record>
-    <record>Sai</record>
-    <record>Leo</record>
-    <record>Hajrudin</record>
-    <record>Elizabello II</record>
-    <record>Suleiman</record>
-    <record>Orlumbus</record>
-    <record>Urouge</record>
-    <record>X Drake</record>
-    <record>Roche Tomson</record>
-    <record>Wetton</record>
-    <record>Kuroobi</record>
-    <record>Hatchan</record>
-    <record>Hody Jones</record>
-    <record>Arlong</record>
-    <record>Wapol</record>
-    <record>Bepo</record>
-    <record>Caribou</record>
-    <record>Caesar Clown</record>
-    <record>Galdino</record>
-    <record>Mr. 2 Bon Kurei</record>
-    <record>Mr. 3</record>
-    <record>Mr. 4</record>
-    <record>Miss Doublefinger</record>
-    <record>Mr. 5</record>
-    <record>Miss Valentine</record>
-    <record>Shiki</record>
-    <record>Dr. Indigo</record>
-    <record>Scarlet</record>
-    <record>Boodle</record>
-    <record>Gaimon</record>
-    <record>Mohji</record>
-    <record>Cabaji</record>
-    <record>Ritchie</record>
-    <record>Daz Bones</record>
-    <record>Bentham</record>
-    <record>Hannyabal</record>
-    <record>Shiryu</record>
-    <record>Vasco Shot</record>
-    <record>Catarina Devon</record>
-    <record>Blueno</record>
-    <record>Kalifa</record>
-    <record>Kaku</record>
-    <record>Jabra</record>
-    <record>Fukurou</record>
-    <record>Rob Lucci</record>
-    <record>Spandam</record>
-    <record>Absalom</record>
-    <record>Hogback</record>
-    <record>Perona</record>
-    <record>Gekko Moriah</record>
-    <record>Bartholomew Kuma</record>
-    <record>Boa Hancock</record>
-    <record>Boa Sandersonia</record>
-    <record>Boa Marigold</record>
-    <record>Emporio Ivankov</record>
-    <record>Inazuma</record>
-    <record>Crocodile</record>
-    <record>Donquixote Rosinante</record>
-    <record>Vergo</record>
-    <record>Monet</record>
-    <record>Sugar</record>
+    <record>
+        <name>Monkey D. Luffy</name>
+        <crew>Straw Hat Pirates</crew>
+        <gender>1</gender>
+        <bounty>3,000,000,000</bounty>
+    </record>
+    <record>
+        <name>Roronoa Zoro</name>
+        <crew>Straw Hat Pirates</crew>
+        <gender>1</gender>
+        <bounty>1,111,000,000</bounty>
+    </record>
+    <record>
+        <name>Nami</name>
+        <crew>Straw Hat Pirates</crew>
+        <gender>0</gender>
+        <bounty>366,000,000</bounty>
+    </record>
+    <record>
+        <name>Usopp</name>
+        <crew>Straw Hat Pirates</crew>
+        <gender>1</gender>
+        <bounty>500,000,000</bounty>
+    </record>
+    <record>
+        <name>Sanji</name>
+        <crew>Straw Hat Pirates</crew>
+        <gender>1</gender>
+        <bounty>1,032,000,000</bounty>
+    </record>
+    <record>
+        <name>Tony Tony Chopper</name>
+        <crew>Straw Hat Pirates</crew>
+        <gender>1</gender>
+        <bounty>1,000</bounty>
+    </record>
+    <record>
+        <name>Nico Robin</name>
+        <crew>Straw Hat Pirates</crew>
+        <gender>0</gender>
+        <bounty>930,000,000</bounty>
+    </record>
+    <record>
+        <name>Franky</name>
+        <crew>Straw Hat Pirates</crew>
+        <gender>1</gender>
+        <bounty>394,000,000</bounty>
+    </record>
+    <record>
+        <name>Brook</name>
+        <crew>Straw Hat Pirates</crew>
+        <gender>1</gender>
+        <bounty>383,000,000</bounty>
+    </record>
+    <record>
+        <name>Jinbe</name>
+        <crew>Straw Hat Pirates</crew>
+        <gender>1</gender>
+        <bounty>1,100,000,000</bounty>
+    </record>
+    <record>
+        <name>Gol D. Roger</name>
+        <crew>Roger Pirates</crew>
+        <gender>1</gender>
+        <bounty>5,564,800,000</bounty>
+    </record>
+    <record>
+        <name>Silvers Rayleigh</name>
+        <crew>Roger Pirates</crew>
+        <gender>1</gender>
+        <bounty>-1</bounty>
+    </record>
+    <record>
+        <name>Shanks</name>
+        <crew>Red-Haired Pirates</crew>
+        <gender>1</gender>
+        <bounty>4,048,900,000</bounty>
+    </record>
+    <record>
+        <name>Benn Beckman</name>
+        <crew>Red-Haired Pirates</crew>
+        <gender>1</gender>
+        <bounty>-1</bounty>
+    </record>
+    <record>
+        <name>Yasopp</name>
+        <crew>Red-Haired Pirates</crew>
+        <gender>1</gender>
+        <bounty>-1</bounty>
+    </record>
+    <record>
+        <name>Lucky Roo</name>
+        <crew>Red-Haired Pirates</crew>
+        <gender>1</gender>
+        <bounty>-1</bounty>
+    </record>
+    <record>
+        <name>Dracule Mihawk</name>
+        <crew>None</crew>
+        <gender>1</gender>
+        <bounty>3,590,000,000</bounty>
+    </record>
+    <record>
+        <name>Trafalgar D. Water Law</name>
+        <crew>Heart Pirates</crew>
+        <gender>1</gender>
+        <bounty>3,000,000,000</bounty>
+    </record>
+    <record>
+        <name>Eustass Kid</name>
+        <crew>Kid Pirates</crew>
+        <gender>1</gender>
+        <bounty>3,000,000,000</bounty>
+    </record>
+    <record>
+        <name>Scratchmen Apoo</name>
+        <crew>On Air Pirates</crew>
+        <gender>1</gender>
+        <bounty>350,000,000</bounty>
+    </record>
+    <record>
+        <name>Basil Hawkins</name>
+        <crew>Hawkins Pirates</crew>
+        <gender>1</gender>
+        <bounty>320,000,000</bounty>
+    </record>
+    <record>
+        <name>Capone Bege</name>
+        <crew>Fire Tank Pirates</crew>
+        <gender>1</gender>
+        <bounty>350,000,000</bounty>
+    </record>
+    <record>
+        <name>Jewelry Bonney</name>
+        <crew>Bonney Pirates</crew>
+        <gender>0</gender>
+        <bounty>320,000,000</bounty>
+    </record>
+    <record>
+        <name>Charlotte Linlin</name>
+        <crew>Big Mom Pirates</crew>
+        <gender>0</gender>
+        <bounty>4,388,000,000</bounty>
+    </record>
+    <record>
+        <name>Kaido</name>
+        <crew>Beasts Pirates</crew>
+        <gender>1</gender>
+        <bounty>4,611,100,000</bounty>
+    </record>
+    <record>
+        <name>Charlotte Katakuri</name>
+        <crew>Big Mom Pirates</crew>
+        <gender>1</gender>
+        <bounty>1,057,000,000</bounty>
+    </record>
+    <record>
+        <name>Charlotte Smoothie</name>
+        <crew>Big Mom Pirates</crew>
+        <gender>0</gender>
+        <bounty>932,000,000</bounty>
+    </record>
+    <record>
+        <name>Marshall D. Teach</name>
+        <crew>Blackbeard Pirates</crew>
+        <gender>1</gender>
+        <bounty>3,996,000,000</bounty>
+    </record>
+    <record>
+        <name>Jesus Burgess</name>
+        <crew>Blackbeard Pirates</crew>
+        <gender>1</gender>
+        <bounty>20,000,000</bounty>
+    </record>
+    <record>
+        <name>Van Augur</name>
+        <crew>Blackbeard Pirates</crew>
+        <gender>1</gender>
+        <bounty>64,000,000</bounty>
+    </record>
+    <record>
+        <name>Doc Q</name>
+        <crew>Blackbeard Pirates</crew>
+        <gender>1</gender>
+        <bounty>72,000,000</bounty>
+    </record>
+    <record>
+        <name>Lafitte</name>
+        <crew>Blackbeard Pirates</crew>
+        <gender>1</gender>
+        <bounty>42,200,000</bounty>
+    </record>
+    <record>
+        <name>Buggy</name>
+        <crew>Buggy's Delivery</crew>
+        <gender>1</gender>
+        <bounty>3,189,000,000</bounty>
+    </record>
+    <record>
+        <name>Alvida</name>
+        <crew>Buggy's Delivery</crew>
+        <gender>0</gender>
+        <bounty>5,000,000</bounty>
+    </record>
+    <record>
+        <name>Donquixote Doflamingo</name>
+        <crew>Donquixote Pirates</crew>
+        <gender>1</gender>
+        <bounty>340,000,000</bounty>
+    </record>
+    <record>
+        <name>Bellamy</name>
+        <crew>Bellamy Pirates</crew>
+        <gender>1</gender>
+        <bounty>195,000,000</bounty>
+    </record>
+    <record>
+        <name>Cavendish</name>
+        <crew>Beautiful Pirates</crew>
+        <gender>1</gender>
+        <bounty>330,000,000</bounty>
+    </record>
+    <record>
+        <name>Bartolomeo</name>
+        <crew>Bartholomeo's Crew</crew>
+        <gender>1</gender>
+        <bounty>200,000,000[</bounty>
+    </record>
+    <record>
+        <name>Ideo</name>
+        <crew>Ideo Pirates</crew>
+        <gender>1</gender>
+        <bounty>-1</bounty>
+    </record>
+    <record>
+        <name>Sai</name>
+        <crew>Happo Navy</crew>
+        <gender>1</gender>
+        <bounty>210,000,000</bounty>
+    </record>
+    <record>
+        <name>Leo</name>
+        <crew>Tontatta Pirates</crew>
+        <gender>1</gender>
+        <bounty>-1</bounty>
+    </record>
+    <record>
+        <name>Hajrudin</name>
+        <crew>New Giant Pirates</crew>
+        <gender>1</gender>
+        <bounty>-1</bounty>
+    </record>
+    <record>
+        <name>Elizabello II</name>
+        <crew>Elizabello Crew</crew>
+        <gender>1</gender>
+        <bounty>-1</bounty>
+    </record>
+    <record>
+        <name>Suleiman</name>
+        <crew>Elizabello Crew</crew>
+        <gender>1</gender>
+        <bounty>67,000,000</bounty>
+    </record>
+    <record>
+        <name>Orlumbus</name>
+        <crew>Yonta Maria Grand Fleet</crew>
+        <gender>1</gender>
+        <bounty>148,000,000</bounty>
+    </record>
+    <record>
+        <name>Urouge</name>
+        <crew>Fallen Monk Pirates</crew>
+        <gender>1</gender>
+        <bounty>108,000,000</bounty>
+    </record>
+    <record>
+        <name>X Drake</name>
+        <crew>Drake Pirates</crew>
+        <gender>1</gender>
+        <bounty>222,000,000</bounty>
+    </record>
+    <record>
+        <name>Rockstar</name>
+        <crew>Red Hair Pirates</crew>
+        <gender>1</gender>
+        <bounty>94,000,000</bounty>
+    </record>
+    <record>
+        <name>Wetton</name>
+        <crew>None</crew>
+        <gender>1</gender>
+        <bounty>14,800,000</bounty>
+    </record>
+    <record>
+        <name>Kuroobi</name>
+        <crew>Arlong Pirates</crew>
+        <gender>1</gender>
+        <bounty>9,000,000</bounty>
+    </record>
+    <record>
+        <name>Hatchan</name>
+        <crew>Arlong Pirates</crew>
+        <gender>1</gender>
+        <bounty>8,000,000</bounty>
+    </record>
+    <record>
+        <name>Chew</name>
+        <crew>Arlong Pirates</crew>
+        <gender>1</gender>
+        <bounty>5,500,000</bounty>
+    </record>
+    <record>
+        <name>Arlong</name>
+        <crew>Arlong Pirates</crew>
+        <gender>1</gender>
+        <bounty>20,000,000</bounty>
+    </record>
+    <record>
+        <name>Wapol</name>
+        <crew>Bliking Pirates</crew>
+        <gender>1</gender>
+        <bounty>-1</bounty>
+    </record>
+    <record>
+        <name>Bepo</name>
+        <crew>Heart Pirates</crew>
+        <gender>1</gender>
+        <bounty>500</bounty>
+    </record>
+    <record>
+        <name>Caribou</name>
+        <crew>Caribou Pirates</crew>
+        <gender>1</gender>
+        <bounty>210,000,000</bounty>
+    </record>
+    <record>
+        <name>Caesar Clown</name>
+        <crew>Donquixote Pirates</crew>
+        <gender>1</gender>
+        <bounty>300,000,000</bounty>
+    </record>
+    <record>
+        <name>Galdino</name>
+        <crew>Baroque Works</crew>
+        <gender>1</gender>
+    </record>
+    <record>
+        <name>Mr. 2 Bon Kurei</name>
+        <crew>Baroque Works</crew>
+        <gender>1</gender>
+        <bounty>1,000</bounty>
+    </record>
+    <record>
+        <name>Mr. 3</name>
+        <crew>Baroque Works</crew>
+        <gender>1</gender>
+        <bounty>24,000,000</bounty>
+    </record>
+    <record>
+        <name>Mr. 4</name>
+        <crew>Baroque Works</crew>
+        <gender>3,200,000</gender>
+    </record>
+    <record>
+        <name>Miss Doublefinger</name>
+        <crew>Baroque Works</crew>
+        <gender>0</gender>
+        <bounty>32,000,000</bounty>
+    </record>
+    <record>
+        <name>Mr. 5</name>
+        <crew>Baroque Works</crew>
+        <gender>1</gender>
+        <bounty>10,000,000</bounty>
+    </record>
+    <record>
+        <name>Miss Valentine</name>
+        <crew>Baroque Works</crew>
+        <gender>0</gender>
+        <bounty>7,500,000</bounty>
+    </record>
+    <record>
+        <name>Shiki</name>
+        <crew>Golden Lion Pirates</crew>
+        <gender>1</gender>
+        <bounty>-1</bounty>
+    </record>
+    <record>
+        <name>Dr. Indigo</name>
+        <crew>Golden Lion Pirates</crew>
+        <gender>1</gender>
+        <bounty>-1</bounty>
+    </record>
+    <record>
+        <name>Charlotte Oven</name>
+        <crew>Big Mom Pirates</crew>
+        <gender>1</gender>
+        <bounty>300,000,000</bounty>
+    </record>
+    <record>
+        <name>Charlotte Perospero</name>
+        <crew>Big Mom Pirates</crew>
+        <gender>1</gender>
+        <bounty>700,000,000</bounty>
+    </record>
+    <record>
+        <name>Tamago</name>
+        <crew>Big Mom Pirates</crew>
+        <gender>1</gender>
+        <bounty>429,000,000</bounty>
+    </record>
+    <record>
+        <name>Mohji</name>
+        <crew>Cross Guild</crew>
+        <gender>1</gender>
+        <bounty>-1</bounty>
+    </record>
+    <record>
+        <name>Cabaji</name>
+        <crew>Cross Guild</crew>
+        <gender>1</gender>
+        <bounty>-1</bounty>
+    </record>
+    <record>
+        <name>Richie</name>
+        <crew>Cross Guild</crew>
+        <gender>1</gender>
+        <bounty>-1</bounty>
+    </record>
+    <record>
+        <name>Daz Bones</name>
+        <crew>Cross Guild</crew>
+        <gender>1</gender>
+        <bounty>75,000,000</bounty>
+    </record>
+    <record>
+        <name>Bentham</name>
+        <crew>Newkama Land</crew>
+        <gender>1</gender>
+        <bounty>32,000,000</bounty>
+    </record>
+    <record>
+        <name>Hannyabal</name>
+        <crew>Impel Down</crew>
+        <gender>1</gender>
+        <bounty>-1</bounty>
+    </record>
+    <record>
+        <name>Shiryu</name>
+        <crew>Blackbeard Pirates</crew>
+        <gender>1</gender>
+        <bounty>-1</bounty>
+    </record>
+    <record>
+        <name>Vasco Shot</name>
+        <crew>Blackbeard Pirates</crew>
+        <gender>1</gender>
+        <bounty>-1</bounty>
+    </record>
+    <record>
+        <name>Catarina Devon</name>
+        <crew>Blackbeard Pirates</crew>
+        <gender>0</gender>
+        <bounty>-1</bounty>
+    </record>
+    <record>
+        <name>Blueno</name>
+        <crew>CP0</crew>
+        <gender>1</gender>
+        <bounty>-1</bounty>
+    </record>
+    <record>
+        <name>Kalifa</name>
+        <crew>CP0</crew>
+        <gender>0</gender>
+        <bounty>-1</bounty>
+    </record>
+    <record>
+        <name>Kaku</name>
+        <crew>CP0</crew>
+        <gender>1</gender>
+        <bounty>-1</bounty>
+    </record>
+    <record>
+        <name>Jabra</name>
+        <crew>CP0</crew>
+        <gender>1</gender>
+        <bounty>-1</bounty>
+    </record>
+    <record>
+        <name>Fukurou</name>
+        <crew>CP0</crew>
+        <gender>1</gender>
+        <bounty>-1</bounty>
+    </record>
+    <record>
+        <name>Rob Lucci</name>
+        <crew>CP0</crew>
+        <gender>1</gender>
+        <bounty>-1</bounty>
+    </record>
+    <record>
+        <name>Spandam</name>
+        <crew>CP0</crew>
+        <gender>1</gender>
+        <bounty>1,000</bounty>
+    </record>
+    <record>
+        <name>Absalom</name>
+        <crew>Thriller Bark Pirates</crew>
+        <gender>1</gender>
+        <bounty>-1</bounty>
+    </record>
+    <record>
+        <name>Hogback</name>
+        <crew>Thriller Bark Pirates</crew>
+        <gender>1</gender>
+        <bounty>-1</bounty>
+    </record>
+    <record>
+        <name>Perona</name>
+        <crew>Thriller Bark Pirates</crew>
+        <gender>0</gender>
+        <bounty>1,000</bounty>
+    </record>
+    <record>
+        <name>Gekko Moriah</name>
+        <crew>Dracule Mihawk</crew>
+        <gender>1</gender>
+        <bounty>-1</bounty>
+    </record>
+    <record>
+        <name>Bartholomew Kuma</name>
+        <crew>Revolutionary Army</crew>
+        <gender>1</gender>
+        <bounty>296,000,000</bounty>
+    </record>
+    <record>
+        <name>Boa Hancock</name>
+        <crew>Kuja Pirates</crew>
+        <gender>0</gender>
+        <bounty>1,659,000,000</bounty>
+    </record>
+    <record>
+        <name>Boa Sandersonia</name>
+        <crew>Kuja Pirates</crew>
+        <gender>0</gender>
+        <bounty>40,000,000</bounty>
+    </record>
+    <record>
+        <name>Boa Marigold</name>
+        <crew>Kuja Pirates</crew>
+        <gender>0</gender>
+        <bounty>40,000,000</bounty>
+    </record>
+    <record>
+        <name>Emporio Ivankov</name>
+        <crew>Revolutionary Army</crew>
+        <gender>1</gender>
+        <bounty>100,000,000</bounty>
+    </record>
+    <record>
+        <name>Inazuma</name>
+        <crew>Revolutionary Army</crew>
+        <gender>1</gender>
+        <bounty>100,000,000</bounty>
+    </record>
+    <record>
+        <name>Crocodile</name>
+        <crew>Cross Guild</crew>
+        <gender>1</gender>
+        <bounty>1,965,000,000</bounty>
+    </record>
+    <record>
+        <name>Ulti</name>
+        <crew>Beasts Pirates</crew>
+        <gender>1</gender>
+        <bounty>400,000,000</bounty>
+    </record>
+    <record>
+        <name>Vergo</name>
+        <crew>Donquixote Pirates</crew>
+        <gender>1</gender>
+        <bounty>-1</bounty>
+    </record>
+    <record>
+        <name>Monet</name>
+        <crew>Donquixote Pirates</crew>
+        <gender>0</gender>
+        <bounty>-1</bounty>
+    </record>
+    <record>
+        <name>Sugar</name>
+        <crew>Donquixote Pirates</crew>
+        <gender>0</gender>
+        <bounty>-1</bounty>
+    </record>
 </records>
