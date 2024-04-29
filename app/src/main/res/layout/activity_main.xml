@@ -5,13 +5,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background"
+    android:backgroundTint="#B0FFFFFF"
+    android:backgroundTintMode="src_over"
     tools:context=".MainActivity">
+
 
     <Button
         android:id="@+id/login"
         android:layout_width="192dp"
         android:layout_height="109dp"
-        android:backgroundTint="@android:color/holo_purple"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:textColor="#FFFFFF"
         android:text="Log in"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -25,9 +29,10 @@
         android:id="@+id/create"
         android:layout_width="192dp"
         android:layout_height="109dp"
-        android:backgroundTint="@android:color/holo_purple"
+        android:backgroundTint="@android:color/holo_blue_dark"
         android:text="Create an account"
         android:textSize="24sp"
+        android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"

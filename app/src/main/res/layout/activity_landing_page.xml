@@ -6,6 +6,8 @@
     android:layout_height="match_parent"
     tools:context=".LandingPageActivity">
 
+
+
     <Button
         android:id="@+id/admin_button"
         android:layout_width="100dp"
@@ -35,7 +37,7 @@
         android:id="@+id/title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Garpinator"
+        android:text="Welcome"
         android:textSize="26sp"
         app:layout_constraintBottom_toTopOf="@+id/start_button"
         app:layout_constraintEnd_toEndOf="parent"
@@ -44,12 +46,17 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.222" />
 
+
     <Button
         android:id="@+id/start_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
         android:text="START"
-        app:layout_constraintBottom_toTopOf="@+id/logout_button"
+        android:textAlignment="center"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:textColor="@color/white"
+        android:textSize="26sp"
+        app:layout_constraintBottom_toTopOf="@id/pirate_list_button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/title" />
@@ -63,5 +70,4 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/pirate_list_button" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>
