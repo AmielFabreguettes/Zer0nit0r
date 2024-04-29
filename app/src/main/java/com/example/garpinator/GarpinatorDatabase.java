@@ -84,4 +84,6 @@ public abstract class GarpinatorDatabase extends RoomDatabase {
 
     public abstract UserDAO UserDAO();
     public abstract PirateDAO PirateDAO();
+
+    public abstract HistoryDAO HistoryDAO();
 }

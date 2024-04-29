@@ -9,6 +9,7 @@ import java.util.concurrent.Future;
 public class GarpinatorRepo {
     private UserDAO userDAO;
     private PirateDAO pirateDAO;
+    private HistoryDAO historyDAO;
 
     public GarpinatorRepo(Application app){
         GarpinatorDatabase db = GarpinatorDatabase.getDatabase(app);
@@ -44,6 +45,23 @@ public class GarpinatorRepo {
                 }
         );
 
+        try{
+            return future.get();
+        }catch(Exception e){
+            e.printStackTrace();
+        }
+        return null;
+    }
+
+    public List<History> getHistory() {
+        Future<List<History>> future = GarpinatorDatabase.databaseWriteExecutor.submit(
+                new Callable<List<History>>() {
+                    @Override
+                    public List<History> call() throws Exception {
+                        return historyDAO.getHistory();
+                    }
+                }
+        );
         try{
             return future.get();
         }catch(Exception e){
