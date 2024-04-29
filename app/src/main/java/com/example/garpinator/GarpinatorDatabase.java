@@ -22,6 +22,7 @@ public abstract class GarpinatorDatabase extends RoomDatabase {
     public static final String DB_NAME = "GarpinatorDB";
     public static final String USER_TABLE = "userTable";
     public static final String PIRATE_TABLE = "pirateTable";
+    public static final String HISTORY_TABLE = "historyTable";
 
     private static final String PIRATES_XML_FILE = "pirates.xml";
 
