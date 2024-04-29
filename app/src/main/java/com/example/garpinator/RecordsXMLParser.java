@@ -23,7 +23,7 @@ public class RecordsXMLParser {
         XmlResourceParser parser = res.getXml(xmlFile);
         try {
             while (parser.next() != XmlPullParser.END_DOCUMENT) {
-                if (parser.getEventType() == XmlPullParser.START_TAG && parser.getName().equals("record")) {
+                if (parser.getEventType() == XmlPullParser.START_TAG && !parser.getName().equals("record") && !parser.getName().equals("records")) {
                     records.add(parser.nextText());
                 }
             }
