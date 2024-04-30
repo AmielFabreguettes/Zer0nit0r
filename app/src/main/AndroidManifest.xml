@@ -13,6 +13,14 @@
         android:theme="@style/Theme.Garpinator"
         tools:targetApi="31">
         <activity
+            android:name=".GameActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GameActvity"
+            android:exported="false"
+            android:label="@string/title_activity_game_actvity"
+            android:theme="@style/Theme.Garpinator" />
+        <activity
             android:name=".PiratesListActivity"
             android:exported="false" />
         <activity

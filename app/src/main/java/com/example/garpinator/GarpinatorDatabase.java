@@ -25,6 +25,8 @@ public abstract class GarpinatorDatabase extends RoomDatabase {
 
     private static final String PIRATES_XML_FILE = "pirates.xml";
 
+    public static final String HISTORY_TABLE = "historyTable";
+
     private static volatile GarpinatorDatabase INSTANCE;
     private static final int NUMBER_OF_THREADS = 4;
 

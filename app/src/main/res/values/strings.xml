@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">Garpinator</string>
     <string name="garpinator">Garpinator</string>
+    <string name="title_activity_game_actvity">GameActvity</string>
+    <string name="i_don_t_know">I don\'t know</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
 </resources>
