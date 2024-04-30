@@ -64,6 +64,16 @@ public class LandingPageActivity extends AppCompatActivity {
             }
         });
 
+        Button start_button = findViewById(R.id.start_button);
+
+        start_button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(LandingPageActivity.this, GameActivity.class);
+                startActivity(intent);
+            }
+        });
+
 
     }
 }

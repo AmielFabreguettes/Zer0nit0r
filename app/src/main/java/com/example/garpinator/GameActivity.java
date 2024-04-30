@@ -18,8 +18,5 @@ public class GameActivity extends AppCompatActivity {
         // Ask if you know the rules
         // Then do stuff
 
-        while (!character_found){
-
-        }
     }
 }
