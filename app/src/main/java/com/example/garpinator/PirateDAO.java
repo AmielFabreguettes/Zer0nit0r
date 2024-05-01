@@ -20,4 +20,5 @@ public interface PirateDAO {
     @Delete
     void deletePirate(Pirate pirate);
 
+
 }

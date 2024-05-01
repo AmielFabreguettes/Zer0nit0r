@@ -1,0 +1,47 @@
+Is your pirate (name) ?
+
+Is your pirate from the (crew) ?
+
+Is your pirate a man ?
+Is your pirate a female ?
+
+Does your pirate have a known bounty ? 
+Does your pirate have a bounty higher than (average bounty) ?
+
+Does your pirate have a nickname ?
+
+Is your pirate alive ?
+
+Is your pirate older/younger than (average age) ?
+
+Was your pirate born before/after (date) ?
+
+Is your pirate taller/shoter than (average height) ?
+
+Does your pirate have a devil fruit ?
+
+Is your pirate part of a yonko crew ?
+
+Is your pirate a yonko ?
+
+Does your pirate have a scar ?
+
+Does your pirate fight with his fist ?
+Does your pirate fight using his devil fruit ?
+Does your pirate fight with a weapon ?
+
+Is your pirate human ?
+Is your pirate a fishman ?
+Is your pirate a tontata ?
+Is your pirate a giant ?
+
+Is your pirate a captain ?
+
+Did your pirate fight againts luffy ?
+Did your pirate fight againts zoro ?
+Did your pirate fight againts sanji ?
+
+Does your pirate know haki ?
+
+
+

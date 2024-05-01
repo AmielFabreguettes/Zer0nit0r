@@ -35,7 +35,7 @@
         <yonko_crew>1</yonko_crew>
         <yonko>0</yonko>
         <scar>1</scar>
-        <wapon>sword</wapon>
+        <wapon>weapon</wapon>
         <race>human</race>
         <captain>0</captain>
         <Vsluffy>0</Vsluffy>
@@ -57,7 +57,7 @@
         <yonko_crew>1</yonko_crew>
         <yonko>0</yonko>
         <scar>1</scar>
-        <wapon>weather</wapon>
+        <wapon>weapon</wapon>
         <race>human</race>
         <captain>0</captain>
         <Vsluffy>0</Vsluffy>
@@ -79,7 +79,7 @@
         <yonko_crew>1</yonko_crew>
         <yonko>0</yonko>
         <scar>0</scar>
-        <wapon>sniper</wapon>
+        <wapon>weapon</wapon>
         <race>human</race>
         <captain>0</captain>
         <Vsluffy>1</Vsluffy>
@@ -167,7 +167,7 @@
         <yonko_crew>1</yonko_crew>
         <yonko>0</yonko>
         <scar>0</scar>
-        <wapon>body</wapon>
+        <wapon>weapon</wapon>
         <race>human, robot</race>
         <captain>0</captain>
         <Vsluffy>1</Vsluffy>
@@ -189,7 +189,7 @@
         <yonko_crew>1</yonko_crew>
         <yonko>0</yonko>
         <scar>0</scar>
-        <wapon>sword</wapon>
+        <wapon>weapon</wapon>
         <race>human, undead</race>
         <captain>0</captain>
         <Vsluffy>0</Vsluffy>
@@ -212,7 +212,7 @@
         <yonko>0</yonko>
         <scar>0</scar>
         <wapon>fist</wapon>
-        <race>fishman</race>
+        <race>fishMan</race>
         <captain>0</captain>
         <Vsluffy>0</Vsluffy>
         <Vszoro>0</Vszoro>
@@ -233,7 +233,7 @@
         <yonko_crew>0</yonko_crew>
         <yonko>0</yonko>
         <scar>0</scar>
-        <wapon>sword</wapon>
+        <wapon>weapon</wapon>
         <race>human</race>
         <captain>1</captain>
         <Vsluffy>0</Vsluffy>
@@ -255,7 +255,7 @@
         <yonko_crew>10</yonko_crew>
         <yonko>0</yonko>
         <scar>1</scar>
-        <wapon>sword</wapon>
+        <wapon>weapon</wapon>
         <race>human</race>
         <captain>0</captain>
         <Vsluffy>0</Vsluffy>
@@ -277,7 +277,7 @@
         <yonko_crew>1</yonko_crew>
         <yonko>1</yonko>
         <scar>1</scar>
-        <wapon>sword</wapon>
+        <wapon>weapon</wapon>
         <race>human</race>
         <captain>1</captain>
         <Vsluffy>0</Vsluffy>
@@ -365,7 +365,7 @@
         <yonko_crew>1</yonko_crew>
         <yonko>0</yonko>
         <scar>0</scar>
-        <wapon>sword</wapon>
+        <wapon>weapon</wapon>
         <race>human</race>
         <captain>0</captain>
         <Vsluffy>0</Vsluffy>
@@ -387,7 +387,7 @@
         <yonko_crew>0</yonko_crew>
         <yonko>0</yonko>
         <scar>0</scar>
-        <wapon>devil fruit, sword</wapon>
+        <wapon>devil fruit, weapon</wapon>
         <race>human</race>
         <captain>1</captain>
         <Vsluffy>0</Vsluffy>
@@ -519,7 +519,7 @@
         <yonko_crew>1</yonko_crew>
         <yonko>1</yonko>
         <scar>0</scar>
-        <wapon>devil fruit, fist, sword</wapon>
+        <wapon>devil fruit, fist, weapon</wapon>
         <race>human</race>
         <captain>1</captain>
         <Vsluffy>1</Vsluffy>
@@ -541,7 +541,7 @@
         <yonko_crew>1</yonko_crew>
         <yonko>1</yonko>
         <scar>1</scar>
-        <wapon>devil fruit, kanabo</wapon>
+        <wapon>devil fruit, weapon</wapon>
         <race>human</race>
         <captain>1</captain>
         <Vsluffy>1</Vsluffy>
@@ -585,7 +585,7 @@
         <yonko_crew>1</yonko_crew>
         <yonko>0</yonko>
         <scar>0</scar>
-        <wapon>devil fruit, sword</wapon>
+        <wapon>devil fruit, weapon</wapon>
         <race>human</race>
         <captain>0</captain>
         <Vsluffy>0</Vsluffy>
@@ -651,7 +651,7 @@
         <yonko_crew>1</yonko_crew>
         <yonko>0</yonko>
         <scar>0</scar>
-        <wapon>sniper</wapon>
+        <wapon>weapon</wapon>
         <race>human</race>
         <captain>0</captain>
         <Vsluffy>0</Vsluffy>
@@ -717,7 +717,7 @@
         <yonko_crew>1</yonko_crew>
         <yonko>1</yonko>
         <scar>0</scar>
-        <wapon>devil fruit, sword</wapon>
+        <wapon>devil fruit, weapon</wapon>
         <race>human</race>
         <captain>1</captain>
         <Vsluffy>1</Vsluffy>
@@ -739,7 +739,7 @@
         <yonko_crew>1</yonko_crew>
         <yonko>0</yonko>
         <scar>0</scar>
-        <wapon>mace</wapon>
+        <wapon>weapon</wapon>
         <race>human</race>
         <captain>0</captain>
         <Vsluffy>1</Vsluffy>
@@ -805,7 +805,7 @@
         <yonko_crew>1</yonko_crew>
         <yonko>0</yonko>
         <scar>0</scar>
-        <wapon>sword</wapon>
+        <wapon>weapon</wapon>
         <race>human</race>
         <captain>1</captain>
         <Vsluffy>1</Vsluffy>
@@ -871,7 +871,7 @@
         <yonko_crew>1</yonko_crew>
         <yonko>0</yonko>
         <scar>0</scar>
-        <wapon>sword</wapon>
+        <wapon>weapon</wapon>
         <race>human</race>
         <captain>1</captain>
         <Vsluffy>1</Vsluffy>
@@ -915,7 +915,7 @@
         <yonko_crew>1</yonko_crew>
         <yonko>0</yonko>
         <scar>0</scar>
-        <wapon>fist, sword</wapon>
+        <wapon>fist, weapon</wapon>
         <race>giant</race>
         <captain>1</captain>
         <Vsluffy>1</Vsluffy>
@@ -1025,7 +1025,7 @@
         <yonko_crew>0</yonko_crew>
         <yonko>0</yonko>
         <scar>0</scar>
-        <wapon>devil fruit, sword</wapon>
+        <wapon>devil fruit, weapon</wapon>
         <race>human</race>
         <captain>1</captain>
         <Vsluffy>0</Vsluffy>
@@ -1035,7 +1035,7 @@
     </record>
     <record>
         <name>Rockstar</name>
-        <crew>Red Hair Pirates</crew>
+        <crew>Red-Hair Pirates</crew>
         <gender>1</gender>
         <bounty>94,000,000</bounty>
         <nickname>1</nickname>
@@ -1047,7 +1047,7 @@
         <yonko_crew>1</yonko_crew>
         <yonko>0</yonko>
         <scar>0</scar>
-        <wapon>sword</wapon>
+        <wapon>weapon</wapon>
         <race>human</race>
         <captain>0</captain>
         <Vsluffy>0</Vsluffy>
@@ -1113,7 +1113,7 @@
         <yonko_crew>0</yonko_crew>
         <yonko>0</yonko>
         <scar>0</scar>
-        <wapon>sword</wapon>
+        <wapon>weapon</wapon>
         <race>fishMan</race>
         <captain>0</captain>
         <Vsluffy>0</Vsluffy>
@@ -1289,7 +1289,7 @@
         <yonko_crew>1</yonko_crew>
         <yonko>1</yonko>
         <scar>1</scar>
-        <wapon>devil fruit, sword</wapon>
+        <wapon>devil fruit, weapon</wapon>
         <race>human</race>
         <captain>1</captain>
         <Vsluffy>0</Vsluffy>
@@ -1311,7 +1311,7 @@
         <yonko_crew>1</yonko_crew>
         <yonko>0</yonko>
         <scar>1</scar>
-        <wapon>devil fruit, sword</wapon>
+        <wapon>devil fruit, weapon</wapon>
         <race>human</race>
         <captain>lunarian</captain>
         <Vsluffy>0</Vsluffy>
@@ -1333,7 +1333,7 @@
         <yonko_crew>0</yonko_crew>
         <yonko>0</yonko>
         <scar>0</scar>
-        <wapon>bazooka</wapon>
+        <wapon>weapon</wapon>
         <race>human</race>
         <captain>0</captain>
         <Vsluffy>0</Vsluffy>
@@ -1443,7 +1443,7 @@
         <yonko_crew>1</yonko_crew>
         <yonko>0</yonko>
         <scar>0</scar>
-        <wapon>devil fruit, sword</wapon>
+        <wapon>devil fruit, weapon</wapon>
         <race>human</race>
         <captain>0</captain>
         <Vsluffy>0</Vsluffy>
@@ -1641,7 +1641,7 @@
         <yonko_crew>1</yonko_crew>
         <yonko>0</yonko>
         <scar>0</scar>
-        <wapon>sword</wapon>
+        <wapon>weapon</wapon>
         <race>human</race>
         <captain>0</captain>
         <Vsluffy>0</Vsluffy>
@@ -1663,7 +1663,7 @@
         <yonko_crew>1</yonko_crew>
         <yonko>0</yonko>
         <scar>0</scar>
-        <wapon>sword</wapon>
+        <wapon>weapon</wapon>
         <race>human</race>
         <captain>0</captain>
         <Vsluffy>0</Vsluffy>
@@ -1971,7 +1971,7 @@
         <yonko_crew>0</yonko_crew>
         <yonko>0</yonko>
         <scar>0</scar>
-        <wapon>bamboo</wapon>
+        <wapon>weapon</wapon>
         <race>human</race>
         <captain>0</captain>
         <Vsluffy>0</Vsluffy>

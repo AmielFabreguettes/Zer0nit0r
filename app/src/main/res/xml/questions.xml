@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<questions>
+    <question>
+        <text>Is your pirate (name)?</text>
+    </question>
+    <question>
+        <text>Is your pirate from the (crew)?</text>
+    </question>
+    <question>
+        <text>Is your pirate a man?</text>
+        <text>Is your pirate a female?</text>
+    </question>
+    <question>
+        <text>Does your pirate have a known bounty?</text>
+        <text>Does your pirate have a bounty higher than (average bounty)?</text>
+    </question>
+    <question>
+        <text>Does your pirate have a nickname?</text>
+    </question>
+    <question>
+        <text>Is your pirate alive?</text>
+    </question>
+    <question>
+        <text>Is your pirate older/younger than (average age)?</text>
+    </question>
+    <question>
+        <text>Was your pirate born before/after (date)?</text>
+    </question>
+    <question>
+        <text>Is your pirate taller/shorter than (average height)?</text>
+    </question>
+    <question>
+        <text>Does your pirate have a devil fruit?</text>
+    </question>
+    <question>
+        <text>Is your pirate part of a yonko crew?</text>
+    </question>
+    <question>
+        <text>Is your pirate a yonko?</text>
+    </question>
+    <question>
+        <text>Does your pirate have a scar?</text>
+    </question>
+    <question>
+        <text>Does your pirate fight with his fist?</text>
+        <text>Does your pirate fight using his devil fruit?</text>
+        <text>Does your pirate fight with a weapon?</text>
+    </question>
+    <question>
+        <text>Is your pirate human?</text>
+    </question>
+    <question>
+        <text>Is your pirate a fishman?</text>
+    </question>
+    <question>
+        <text>Is your pirate a tontatta?</text>
+    </question>
+    <question>
+        <text>Is your pirate a giant?</text>
+    </question>
+    <question>
+        <text>Is your pirate a captain?</text>
+    </question>
+    <question>
+        <text>Did your pirate fight against Luffy?</text>
+    </question>
+    <question>
+        <text>Did your pirate fight against Zoro?</text>
+    </question>
+    <question>
+        <text>Did your pirate fight against Sanji?</text>
+    </question>
+    <question>
+        <text>Does your pirate know Haki?</text>
+    </question>
+</questions>
