@@ -817,7 +817,7 @@
         <name>Bartolomeo</name>
         <crew>Barto Club</crew>
         <gender>1</gender>
-        <bounty>200,000,000[</bounty>\
+        <bounty>200,000,000</bounty>
         <nickname>1</nickname>
         <status>1</status>
         <age>24</age>
@@ -1029,8 +1029,8 @@
         <race>human</race>
         <captain>1</captain>
         <Vsluffy>0</Vsluffy>
-        <Vszoro>1</Vszoro>
-        <Vssanji>0</Vssanji>
+        <Vszoro>0</Vszoro>
+        <Vssanji>1</Vssanji>
         <haki>1</haki>
     </record>
     <record>
@@ -1279,7 +1279,7 @@
         <name>Edward Newgate</name>
         <crew>Whitebeard Pirates</crew>
         <gender>1</gender>
-        <bounty>5,046,000,000[</bounty>
+        <bounty>5,046,000,000</bounty>
         <nickname>1</nickname>
         <status>0</status>
         <age>72</age>
@@ -1553,7 +1553,7 @@
         <yonko_crew>1</yonko_crew>
         <yonko>0</yonko>
         <scar>0</scar>
-        <wapon>sword</wapon>
+        <wapon>weapon</wapon>
         <race>human</race>
         <captain>0</captain>
         <Vsluffy>0</Vsluffy>
@@ -1685,7 +1685,7 @@
         <yonko_crew>1</yonko_crew>
         <yonko>0</yonko>
         <scar>0</scar>
-        <wapon>pistol</wapon>
+        <wapon>weapon</wapon>
         <race>human</race>
         <captain>0</captain>
         <Vsluffy>0</Vsluffy>

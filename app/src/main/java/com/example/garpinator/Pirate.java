@@ -12,7 +12,7 @@ public class Pirate {
     private int id;
     private String name;
     private String crew;
-    private String bounty;
+    private long bounty;
     private boolean nickname;
     private boolean status;
     private int age;
@@ -32,7 +32,7 @@ public class Pirate {
 
     private int odds;
 
-    public Pirate(String name, String crew, String bounty, boolean nickname, boolean status, int age,
+    public Pirate(String name, String crew, long bounty, boolean nickname, boolean status, int age,
                   String birthday, int height, boolean devil_fruit, boolean yonko_crew, boolean yonko,
                   boolean scar, String weapon, String race, boolean captain, boolean vsLuffy, boolean vsZoro,
                   boolean vsSanji, boolean haki) {
@@ -90,11 +90,11 @@ public class Pirate {
         this.crew = crew;
     }
 
-    public String getBounty() {
+    public long getBounty() {
         return bounty;
     }
 
-    public void setBounty(String bounty) {
+    public void setBounty(long bounty) {
         this.bounty = bounty;
     }
 

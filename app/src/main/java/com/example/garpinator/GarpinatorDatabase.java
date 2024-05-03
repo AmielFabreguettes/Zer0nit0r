@@ -80,7 +80,10 @@ public abstract class GarpinatorDatabase extends RoomDatabase {
             String name = lis.get(i);
             String crew = lis.get(i + 1);
             boolean gender = lis.get(i + 2).equals("1");
-            String bounty = lis.get(i + 3);
+
+            String cleaned = lis.get(i + 3);
+            long bounty = Long.parseLong(cleaned.replaceAll(",", ""));
+
             boolean nickname = lis.get(i + 4).equals("1");
             boolean status = lis.get(i + 5).equals("1");
             int age = Integer.parseInt(lis.get(i + 6));
