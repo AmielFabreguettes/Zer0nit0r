@@ -657,7 +657,7 @@
         <Vsluffy>0</Vsluffy>
         <Vszoro>0</Vszoro>
         <Vssanji>0</Vssanji>
-        <haki>0</haki>
+        <haki>1</haki>
     </record>
     <record>
         <name>Doc Q</name>
@@ -1508,7 +1508,7 @@
         <devil_fruit>1</devil_fruit>
         <yonko_crew>1</yonko_crew>
         <yonko>0</yonko>
-        <scar>0</scar>
+        <scar>1</scar>
         <wapon>devil fruit</wapon>
         <race>human</race>
         <captain>0</captain>
@@ -1684,7 +1684,7 @@
         <devil_fruit>-1</devil_fruit>
         <yonko_crew>1</yonko_crew>
         <yonko>0</yonko>
-        <scar>0</scar>
+        <scar>1</scar>
         <wapon>weapon</wapon>
         <race>human</race>
         <captain>0</captain>

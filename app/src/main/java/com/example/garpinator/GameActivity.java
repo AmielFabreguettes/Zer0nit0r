@@ -469,16 +469,25 @@ public class GameActivity extends AppCompatActivity {
                     question.setText("Do you know the way your character fights ?");
                 }
                 else {
-                    chosen_weapon = rand.nextInt(weapons.size());
-                    if (weapons.get(chosen_weapon).equals("weapon")) {
-                        question.setText("Does your character fight with a weapon ?");
-                    } else {
-                        question.setText("Does you character fight using his " + weapons.get(chosen_weapon) + " ?");
+                    if (weapons.size() != 0) {
+                        chosen_weapon = rand.nextInt(weapons.size());
+                        if (weapons.get(chosen_weapon).equals("weapon")) {
+                            question.setText("Does your character fight with a weapon ?");
+                        } else {
+                            question.setText("Does you character fight using his " + weapons.get(chosen_weapon) + " ?");
+                        }
+                    }
+                    else {
+                        game();
                     }
                 }
             } else if (question_time == 11 && !race) {
-                chosen_race = rand.nextInt(races.size());
-                question.setText("Is your character a " + races.get(chosen_race) + " ?");
+                if(races.size() != 0) {
+                    chosen_race = rand.nextInt(races.size());
+                    question.setText("Is your character a " + races.get(chosen_race) + " ?");
+                }else {
+                    game();
+                }
             } else if (question_time == 12 && !captain) {
                 question.setText("Is your character captain of a crew ?");
             } else if (question_time == 13 && !vsLuffy) {
