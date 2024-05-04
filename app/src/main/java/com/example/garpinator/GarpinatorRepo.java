@@ -78,6 +78,12 @@ public class GarpinatorRepo {
         });
     }
 
+    public void insertHistory(History histo){
+        GarpinatorDatabase.databaseWriteExecutor.execute(() ->{
+            historyDAO.insertHistory(histo);
+        });
+    }
+
     public void clearUserTable(){
         GarpinatorDatabase.databaseWriteExecutor.execute(() ->
                 userDAO.clearUserTable());

@@ -3,6 +3,8 @@ package com.example.garpinator;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.PictureInPictureParams;
+import android.content.Context;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.text.BoringLayout;
 import android.view.View;
@@ -17,6 +19,8 @@ import java.util.Random;
 public class GameActivity extends AppCompatActivity {
 
 
+    private GarpinatorRepo db;
+    private SharedPreferences prefs;
 
     private boolean crew = false;
     private boolean known_bounty= false;
@@ -61,6 +65,23 @@ public class GameActivity extends AppCompatActivity {
     int chosen_weapon;
 
 
+    private void gameOver(Pirate pirate){
+        Button y = findViewById(R.id.yes);
+        Button n = findViewById(R.id.no);
+        Button idk = findViewById(R.id.idk);
+
+        TextView question = findViewById(R.id.question);
+
+        question.setText("Your character is "+ pirate.getName());
+        y.setVisibility(View.INVISIBLE);
+        n.setVisibility(View.INVISIBLE);
+        idk.setVisibility(View.INVISIBLE);
+
+        db.insertHistory(new History(db.getUserByName(prefs.getString("curUser","")),
+                pirate));
+    }
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -70,6 +91,8 @@ public class GameActivity extends AppCompatActivity {
         // Ask if you know the rules
         // Then do stuff
 
+        this.db = new GarpinatorRepo(getApplication());
+        this.prefs = getSharedPreferences("LoginActivity", Context.MODE_PRIVATE);
         question = findViewById(R.id.question);
         yes = findViewById(R.id.yes);
         no = findViewById(R.id.no);
@@ -415,6 +438,7 @@ public class GameActivity extends AppCompatActivity {
 
         if (pirates.size() == 1){
             question.setText("Is your character " + pirates.get(0).getName() + " ?");
+            gameOver(pirates.get(0));
         }
         else {
 
