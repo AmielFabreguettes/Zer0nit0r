@@ -1,5 +1,8 @@
 package com.example.garpinator;
 
+import android.app.AlertDialog;
+import android.app.Dialog;
+import android.content.DialogInterface;
 import android.content.SharedPreferences;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -51,11 +54,29 @@ public class UserAdminLevel extends RecyclerView.Adapter<UserAdminLevel.ViewHold
                             "You can't delete yourself",Toast.LENGTH_SHORT).show();
                 }
                 else {
-                    db.deleteUser(user.getUsername());
-                    Toast.makeText(v.getContext(),
-                            "User deleted successfully", Toast.LENGTH_SHORT).show();
-                    users = db.getAllUsers();
-                    notifyDataSetChanged();
+                    AlertDialog.Builder builder = new AlertDialog.Builder(
+                            v.getContext());
+                    builder.setMessage("Are you sure you want to delete " +
+                                    user.getUsername() + " ?")
+                                    .setTitle("Delete ?")
+                            .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+                                @Override
+                                public void onClick(DialogInterface dialog, int which) {
+                                    db.deleteUser(user.getUsername());
+                                    Toast.makeText(v.getContext(),
+                                            "User deleted successfully", Toast.LENGTH_SHORT).show();
+                                    users = db.getAllUsers();
+                                    notifyDataSetChanged();
+                                }
+                            })
+                            .setNegativeButton("No", new DialogInterface.OnClickListener() {
+                                @Override
+                                public void onClick(DialogInterface dialog, int which) {
+                                    dialog.cancel();
+                                }
+                            });
+                    AlertDialog popup = builder.create();
+                    popup.show();
                 }
             }
         });
