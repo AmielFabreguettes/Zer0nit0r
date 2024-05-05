@@ -437,110 +437,114 @@ public class GameActivity extends AppCompatActivity {
 
     }
 
-    private void game(){
-        lmao.setText("" + pirates.size());
+    private void game() {
+        if (pirates.size() == 0) {
+            question.setText("Your character does not appaer to be in the database");
+            yes.setVisibility(View.INVISIBLE);
+            no.setVisibility(View.INVISIBLE);
+            idk.setVisibility(View.INVISIBLE);
+            back.setVisibility(View.VISIBLE);
+        } else {
+            lmao.setText("" + pirates.size());
 
-        crews = new ArrayList<>();
-        for (Pirate pirate : pirates){
-            if (!crews.contains(pirate.getCrew()))
-                crews.add(pirate.getCrew());
-        }
-
-        races = new ArrayList<>();
-        for (Pirate pirate : pirates){
-            if (!races.contains(pirate.getRace()))
-                races.add(pirate.getRace());
-        }
-
-
-        if (pirates.size() == 1){
-            question.setText("Is your character " + pirates.get(0).getName() + " ?");
-            gameOver(pirates.get(0));
-        }
-        else {
-
-            question_time = rand.nextInt(17);
-
-            if (question_time == 0 && !crew) {
-                chosen_crew = rand.nextInt(crews.size());
-                question.setText("Is your character part of the " + crews.get(chosen_crew) + " ?");
+            crews = new ArrayList<>();
+            for (Pirate pirate : pirates) {
+                if (!crews.contains(pirate.getCrew()))
+                    crews.add(pirate.getCrew());
             }
-            ////////////////////////////////////////////////////////////////////////////////////////
-            else if (question_time == 1 && (!bounty || !known_bounty)) {
-                if (!known_bounty) {
-                    question.setText("Does your character have a known bounty ?");
-                } else if (!bounty) {
-                    chosen_bounty = 0;
-                    for (Pirate pirate : pirates){
-                        chosen_bounty += pirate.getBounty();
+
+            races = new ArrayList<>();
+            for (Pirate pirate : pirates) {
+                if (!races.contains(pirate.getRace()))
+                    races.add(pirate.getRace());
+            }
+
+
+            if (pirates.size() == 1) {
+                question.setText("Is your character " + pirates.get(0).getName() + " ?");
+                gameOver(pirates.get(0));
+            } else {
+
+                question_time = rand.nextInt(17);
+
+                if (question_time == 0 && !crew) {
+                    chosen_crew = rand.nextInt(crews.size());
+                    question.setText("Is your character part of the " + crews.get(chosen_crew) + " ?");
+                }
+                ////////////////////////////////////////////////////////////////////////////////////////
+                else if (question_time == 1 && (!bounty || !known_bounty)) {
+                    if (!known_bounty) {
+                        question.setText("Does your character have a known bounty ?");
+                    } else if (!bounty) {
+                        chosen_bounty = 0;
+                        for (Pirate pirate : pirates) {
+                            chosen_bounty += pirate.getBounty();
+                        }
+                        chosen_bounty /= pirates.size();
+                        question.setText("Does your character havc a bounty higher than " + chosen_bounty + " ?");
+
                     }
-                    chosen_bounty /= pirates.size();
-                    question.setText("Does your character havc a bounty higher than " + chosen_bounty + " ?");
-
                 }
-            }
-            ////////////////////////////////////////////////////////////////////////////////////////
-            else if (question_time == 2 && !nickname) {
-                question.setText("Does your character have a nickname ?");
-            } else if (question_time == 3 && !status) {
-                question.setText("Is your character alive ?");
-            } else if (question_time == 4 && !age) {
-                for (Pirate pirate : pirates) {
-                    chosen_age += pirate.getAge();
-                }
-                chosen_age /= pirates.size();
-                question.setText("Is your pirate older than " + chosen_age + " ?");
-            }
-            else if (question_time == 5 && !height) {
-                for (Pirate pirate : pirates) {
-                    chosen_height += pirate.getHeight();
-                }
-                chosen_height /= pirates.size();
-                question.setText("Is your pirate taller than " + chosen_height + "cm ?");
-            } else if (question_time == 6 && !devil_fruit) {
-                question.setText("Does your character have a devil fruit power ?");
-            } else if (question_time == 7 && !yonko_crew) {
-                question.setText("Is your character part of a Yonko crew ?");
-            } else if (question_time == 8 && !yonko) {
-                question.setText("Is your character a Yonko ?");
-            } else if (question_time == 9 && !scar) {
-                question.setText("Does your character have an apparant scar ?");
-            } else if (question_time == 10 && (!weapon || !known_weapon)) {
-                if (!known_weapon) {
-                    question.setText("Do you know the way your character fights ?");
-                }
-                else {
-                    if (weapons.size() != 0) {
-                        chosen_weapon = rand.nextInt(weapons.size());
-                        if (weapons.get(chosen_weapon).equals("weapon")) {
-                            question.setText("Does your character fight with a weapon ?");
+                ////////////////////////////////////////////////////////////////////////////////////////
+                else if (question_time == 2 && !nickname) {
+                    question.setText("Does your character have a nickname ?");
+                } else if (question_time == 3 && !status) {
+                    question.setText("Is your character alive ?");
+                } else if (question_time == 4 && !age) {
+                    for (Pirate pirate : pirates) {
+                        chosen_age += pirate.getAge();
+                    }
+                    chosen_age /= pirates.size();
+                    question.setText("Is your pirate older than " + chosen_age + " ?");
+                } else if (question_time == 5 && !height) {
+                    for (Pirate pirate : pirates) {
+                        chosen_height += pirate.getHeight();
+                    }
+                    chosen_height /= pirates.size();
+                    question.setText("Is your pirate taller than " + chosen_height + "cm ?");
+                } else if (question_time == 6 && !devil_fruit) {
+                    question.setText("Does your character have a devil fruit power ?");
+                } else if (question_time == 7 && !yonko_crew) {
+                    question.setText("Is your character part of a Yonko crew ?");
+                } else if (question_time == 8 && !yonko) {
+                    question.setText("Is your character a Yonko ?");
+                } else if (question_time == 9 && !scar) {
+                    question.setText("Does your character have an apparant scar ?");
+                } else if (question_time == 10 && (!weapon || !known_weapon)) {
+                    if (!known_weapon) {
+                        question.setText("Do you know the way your character fights ?");
+                    } else {
+                        if (weapons.size() != 0) {
+                            chosen_weapon = rand.nextInt(weapons.size());
+                            if (weapons.get(chosen_weapon).equals("weapon")) {
+                                question.setText("Does your character fight with a weapon ?");
+                            } else {
+                                question.setText("Does you character fight using his " + weapons.get(chosen_weapon) + " ?");
+                            }
                         } else {
-                            question.setText("Does you character fight using his " + weapons.get(chosen_weapon) + " ?");
+                            game();
                         }
                     }
-                    else {
+                } else if (question_time == 11 && !race) {
+                    if (races.size() != 0) {
+                        chosen_race = rand.nextInt(races.size());
+                        question.setText("Is your character a " + races.get(chosen_race) + " ?");
+                    } else {
                         game();
                     }
-                }
-            } else if (question_time == 11 && !race) {
-                if(races.size() != 0) {
-                    chosen_race = rand.nextInt(races.size());
-                    question.setText("Is your character a " + races.get(chosen_race) + " ?");
-                }else {
+                } else if (question_time == 12 && !captain) {
+                    question.setText("Is your character captain of a crew ?");
+                } else if (question_time == 13 && !vsLuffy) {
+                    question.setText("Did your character fight against Luffy ?");
+                } else if (question_time == 14 && !vsZoro) {
+                    question.setText("Did your character fight against Zoro ?");
+                } else if (question_time == 15 && !vsSanji) {
+                    question.setText("Did your character fight against Sanji ?");
+                } else if (question_time == 16 && !haki) {
+                    question.setText("Does your character know any type of haki ?");
+                } else {
                     game();
                 }
-            } else if (question_time == 12 && !captain) {
-                question.setText("Is your character captain of a crew ?");
-            } else if (question_time == 13 && !vsLuffy) {
-                question.setText("Did your character fight against Luffy ?");
-            } else if (question_time == 14 && !vsZoro) {
-                question.setText("Did your character fight against Zoro ?");
-            } else if (question_time == 15 && !vsSanji) {
-                question.setText("Did your character fight against Sanji ?");
-            } else if (question_time == 16 && !haki) {
-                question.setText("Does your character know any type of haki ?");
-            } else {
-                game();
             }
         }
     }
