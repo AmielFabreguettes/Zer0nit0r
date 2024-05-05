@@ -43,6 +43,16 @@ public class LandingPageActivity extends AppCompatActivity {
             }
         });
 
+        Button history_button = findViewById(R.id.history_button);
+
+        history_button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(LandingPageActivity.this,HistoryActivity.class);
+                startActivity(intent);
+            }
+        });
+
         Button admin_button = findViewById(R.id.admin_button);
         admin_button.setOnClickListener(new View.OnClickListener() {
             @Override

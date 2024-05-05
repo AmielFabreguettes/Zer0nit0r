@@ -13,6 +13,6 @@ public interface HistoryDAO {
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     void insertHistory(History history);
 
-    @Query("Select * from " + GarpinatorDatabase.HISTORY_TABLE)
+    @Query("Select * from " + GarpinatorDatabase.HISTORY_TABLE + " order by id desc")
     List<History> getHistory();
 }

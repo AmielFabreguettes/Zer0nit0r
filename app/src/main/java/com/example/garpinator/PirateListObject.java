@@ -33,7 +33,7 @@ public class PirateListObject extends RecyclerView.Adapter<PirateListObject.View
     public void onBindViewHolder(@NonNull PirateListObject.ViewHolder holder, int position){
         Pirate pirate = pirates.get(position);
         holder.name.setText(pirate.getName());
-        holder.crew.setText("from crew");
+        holder.crew.setText("from " + pirate.getCrew());
     }
     @Override
     public int getItemCount(){

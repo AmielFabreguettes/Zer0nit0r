@@ -9,9 +9,12 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import java.util.List;
+
 public class MainActivity extends AppCompatActivity {
 
     SharedPreferences prefs;
+    GarpinatorRepo db;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,7 +23,10 @@ public class MainActivity extends AppCompatActivity {
 
         ContextProvider.initialize(getApplicationContext());
 
+
+        db = new GarpinatorRepo(getApplication());
         prefs = getSharedPreferences("LoginActivity", Context.MODE_PRIVATE);
+        List<User> users = db.getAllUsers();
         String curUser = prefs.getString("curUser","");
 
         if(!curUser.equals("")){

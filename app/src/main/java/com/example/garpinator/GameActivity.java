@@ -2,16 +2,12 @@ package com.example.garpinator;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.app.PictureInPictureParams;
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.os.Bundle;
-import android.text.BoringLayout;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
-
-import java.math.BigInteger;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
@@ -77,8 +73,10 @@ public class GameActivity extends AppCompatActivity {
         n.setVisibility(View.INVISIBLE);
         idk.setVisibility(View.INVISIBLE);
 
-        db.insertHistory(new History(db.getUserByName(prefs.getString("curUser","")),
-                pirate));
+        User curUser = db.getUserByName(prefs.getString("curUser",""));
+        db.insertHistory(new History(curUser, pirate));
+
+
     }
 
 
@@ -101,7 +99,7 @@ public class GameActivity extends AppCompatActivity {
 
         rand = new Random();
 
-        pirates = GarpinatorDatabase.retrieveAllPirates();
+        pirates = db.getAllPirates();
 
         weapons = new ArrayList<>();
         weapons.add("devil fruit");

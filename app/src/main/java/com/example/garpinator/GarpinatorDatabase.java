@@ -1,6 +1,5 @@
 package com.example.garpinator;
 
-import android.app.Application;
 import android.content.Context;
 
 import androidx.annotation.NonNull;
@@ -9,13 +8,12 @@ import androidx.room.Room;
 import androidx.room.RoomDatabase;
 import androidx.sqlite.db.SupportSQLiteDatabase;
 
-import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
-@Database(entities = {User.class,Pirate.class},version = 11,exportSchema = false)
+@Database(entities = {User.class,Pirate.class, History.class},version = 15,exportSchema = false)
 public abstract class GarpinatorDatabase extends RoomDatabase {
 
 
@@ -110,4 +108,5 @@ public abstract class GarpinatorDatabase extends RoomDatabase {
 
     public abstract UserDAO UserDAO();
     public abstract PirateDAO PirateDAO();
+    public abstract HistoryDAO HistoryDAO();
 }

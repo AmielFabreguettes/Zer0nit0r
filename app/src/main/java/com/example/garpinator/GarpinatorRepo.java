@@ -15,6 +15,7 @@ public class GarpinatorRepo {
         GarpinatorDatabase db = GarpinatorDatabase.getDatabase(app);
         this.userDAO = db.UserDAO();
         this.pirateDAO = db.PirateDAO();
+        this.historyDAO = db.HistoryDAO();
     }
 
     public List<User> getAllUsers() {
@@ -105,6 +106,40 @@ public class GarpinatorRepo {
                     @Override
                     public User call() throws Exception{
                         return userDAO.getUserByName(name);
+                    }
+                }
+        );
+        try{
+            return user.get();
+        }catch(Exception e){
+            e.printStackTrace();
+        }
+        return null;
+    }
+
+    public User getUserById(int id){
+        Future<User> user = GarpinatorDatabase.databaseWriteExecutor.submit(
+                new Callable<User>(){
+                    @Override
+                    public User call() throws Exception{
+                        return userDAO.getUserByID(id);
+                    }
+                }
+        );
+        try{
+            return user.get();
+        }catch(Exception e){
+            e.printStackTrace();
+        }
+        return null;
+    }
+
+    public Pirate getPirateById(int id){
+        Future<Pirate> user = GarpinatorDatabase.databaseWriteExecutor.submit(
+                new Callable<Pirate>(){
+                    @Override
+                    public Pirate call() throws Exception{
+                        return pirateDAO.getPirateById(id);
                     }
                 }
         );
