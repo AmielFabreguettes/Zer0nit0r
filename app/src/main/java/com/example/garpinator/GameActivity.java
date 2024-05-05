@@ -448,8 +448,8 @@ public class GameActivity extends AppCompatActivity {
 
         races = new ArrayList<>();
         for (Pirate pirate : pirates){
-            if (!crews.contains(pirate.getRace()))
-                crews.add(pirate.getRace());
+            if (!races.contains(pirate.getRace()))
+                races.add(pirate.getRace());
         }
 
 
