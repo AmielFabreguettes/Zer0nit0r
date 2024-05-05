@@ -1,9 +1,10 @@
-import static org.testng.Assert.assertEquals;
-import static org.testng.Assert.assertNotEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotEquals;
 
 import com.example.garpinator.User;
 
 import org.junit.Test;
+
 
 public class UserTest {
     @Test

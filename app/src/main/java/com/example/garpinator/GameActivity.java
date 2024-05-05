@@ -3,6 +3,7 @@ package com.example.garpinator;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Context;
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
@@ -49,6 +50,8 @@ public class GameActivity extends AppCompatActivity {
     Button no;
     Button idk;
     TextView lmao;
+
+    Button back;
     int question_time;
 
     int chosen_crew;
@@ -72,6 +75,7 @@ public class GameActivity extends AppCompatActivity {
         y.setVisibility(View.INVISIBLE);
         n.setVisibility(View.INVISIBLE);
         idk.setVisibility(View.INVISIBLE);
+        back.setVisibility(View.VISIBLE);
 
         User curUser = db.getUserByName(prefs.getString("curUser",""));
         db.insertHistory(new History(curUser, pirate));
@@ -91,6 +95,16 @@ public class GameActivity extends AppCompatActivity {
 
         this.db = new GarpinatorRepo(getApplication());
         this.prefs = getSharedPreferences("LoginActivity", Context.MODE_PRIVATE);
+
+        back = findViewById(R.id.back_button);
+        back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(GameActivity.this, LandingPageActivity.class);
+                startActivity(intent);
+            }
+        });
+
         question = findViewById(R.id.question);
         yes = findViewById(R.id.yes);
         no = findViewById(R.id.no);
