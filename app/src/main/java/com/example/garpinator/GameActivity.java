@@ -96,6 +96,7 @@ public class GameActivity extends AppCompatActivity {
         this.db = new GarpinatorRepo(getApplication());
         this.prefs = getSharedPreferences("LoginActivity", Context.MODE_PRIVATE);
 
+
         back = findViewById(R.id.back_button);
         back.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -123,6 +124,10 @@ public class GameActivity extends AppCompatActivity {
         weapons.add("body");
         weapons.add("lion");
         weapons.add("minions");
+
+        if(prefs.getBoolean("isAdmin",false)){
+            lmao.setVisibility(View.VISIBLE);
+        }
 
 
 
