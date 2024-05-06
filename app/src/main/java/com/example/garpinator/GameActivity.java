@@ -439,11 +439,8 @@ public class GameActivity extends AppCompatActivity {
 
     private void game() {
         if (pirates.size() == 0) {
-            question.setText("Your character does not appaer to be in the database");
-            yes.setVisibility(View.INVISIBLE);
-            no.setVisibility(View.INVISIBLE);
-            idk.setVisibility(View.INVISIBLE);
-            back.setVisibility(View.VISIBLE);
+            Intent intent = new Intent(GameActivity.this, Chracter_not_found.class);
+            startActivity(intent);
         } else {
             lmao.setText("" + pirates.size());
 
@@ -461,8 +458,9 @@ public class GameActivity extends AppCompatActivity {
 
 
             if (pirates.size() == 1) {
-                question.setText("Is your character " + pirates.get(0).getName() + " ?");
-                gameOver(pirates.get(0));
+                Intent intent = new Intent(GameActivity.this, Charcter_found.class);
+                intent.putExtra("pirates", pirates.get(0).getName());
+                startActivity(intent);
             } else {
 
                 question_time = rand.nextInt(17);
