@@ -150,4 +150,21 @@ public class GarpinatorRepo {
         }
         return null;
     }
+
+    public Pirate getPirateByName(String name){
+        Future<Pirate> user = GarpinatorDatabase.databaseWriteExecutor.submit(
+                new Callable<Pirate>(){
+                    @Override
+                    public Pirate call() throws Exception{
+                        return pirateDAO.getPirateByName(name);
+                    }
+                }
+        );
+        try{
+            return user.get();
+        }catch(Exception e){
+            e.printStackTrace();
+        }
+        return null;
+    }
 }

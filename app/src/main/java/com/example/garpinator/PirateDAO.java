@@ -19,6 +19,9 @@ public interface PirateDAO {
 
     @Query("Select * from " + GarpinatorDatabase.PIRATE_TABLE + " Where id = :id")
     Pirate getPirateById(int id);
+
+    @Query("Select * from " + GarpinatorDatabase.PIRATE_TABLE + " Where name = :name")
+    Pirate getPirateByName(String name);
     @Delete
     void deletePirate(Pirate pirate);
 
