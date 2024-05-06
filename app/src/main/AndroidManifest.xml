@@ -19,9 +19,6 @@
             android:name=".Charcter_found"
             android:exported="false" />
         <activity
-            android:name=".Character_found"
-            android:exported="false" />
-        <activity
             android:name=".HistoryActivity"
             android:exported="false" />
         <activity
